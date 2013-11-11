@@ -11,9 +11,9 @@
         <li class="nav-menu_item_neo">
             <a href="#"><span>about</span></a>
             <ul >
-                <li ><a href="main.php?f=what_we_do">What we do?</a></li>
-                <li ><a href="main.php?f=how_we_do">How we do?</a></li>
-                <li ><a href="main.php?f=who_we_are">Who we are?</a></li>
+                <li ><a href="what_we_do.php">What we do?</a></li>
+                <li ><a href="how_we_do.php">How we do?</a></li>
+                <li ><a href="who_we_are.php">Who we are?</a></li>
             </ul>
         </li>
 

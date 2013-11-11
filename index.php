@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-        <title>Technoflair Lab</title>
+        <title>Techno Flair Lab</title>
         <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="css/flexdropdown.css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
@@ -82,11 +82,9 @@
                         </section>
 
                         <section class="testimonial">
-                            <h2>This is all about Technoflairlab</h2>
-
                             <p><strong class="quote">“</strong>A chance to blot our mistakes and change failure into winning. It does not take a special time to make a brand new start. It only takes the deep desire to try with all our heart.<br> To live a little better, to always be forgiving. To add a little sunshine in a world for which were living. Never give up in despair Nor think you are through. For theres always a tomorrow, a chance to start new.</p>
 
-                            <p class="author">Ashish Sharma, <strong>TechnoFlairLab</strong></p>
+                            <p class="author">Founder@Techno Flair Lab !</p>
                         </section>
                     </div>
                     <!-- end of main -->
