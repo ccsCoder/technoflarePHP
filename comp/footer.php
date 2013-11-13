@@ -29,7 +29,7 @@
                 <li><a href="#">Contacts</a></li>
             </ul>
         </nav>
-        <p class="copy">&copy; Copyright 2012 Techno Flair Lab</p>
+        <p class="copy">&copy; Copyright 2013 Techno Flair Lab</p>
         <div class="cl">&nbsp;</div>
     </div>
 </div>

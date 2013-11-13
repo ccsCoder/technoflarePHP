@@ -36,6 +36,16 @@
                     <?php include 'comp/slider.php' ?>
                     <div class="main">
                         <section class="cols">
+                            <div class="col_inner">
+                                <img src="css/images/col-img2.png" alt="" />
+                                <div class="col-cnt-inner">
+                                    <h2>We are here</h2>
+                                    <p>At Techno Flair Lab we help you understand your pain areas and help you get the right solution using industry best practices and standards. We ensure that your business has access to the prime tools to achieve results. Techno Flair Lab is 100% committed to customer satisfaction in all services that we deliver.</p><br>
+                                </div>
+                            </div>
+                            <div class="cl">&nbsp;</div>
+                        </section>
+                        <section class="cols">
                             <div class="col">
                                 <img src="css/images/col-img1.png" alt="" />
                                 <div class="col-cnt">

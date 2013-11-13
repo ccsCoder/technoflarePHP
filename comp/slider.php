@@ -13,7 +13,7 @@
             <ul class="slides">
                 <li>
                     <div class="img-holder">
-                        <img src="css/images/slide-img1.png" alt="" />
+                        <img src="./css/images/slide-img1.png" alt="" />
                     </div>
                     <div class="slide-cnt">
                         <h2>E-Technologies</h2>
@@ -24,7 +24,7 @@
                 </li>
                 <li>
                     <div class="img-holder">
-                        <img src="css/images/slide-img2.png" alt="" />
+                        <img src="./css/images/slide-img2.png" alt="" />
                     </div>
                     <div class="slide-cnt">
                         <h2>E-Laboratory</h2>
@@ -35,7 +35,7 @@
                 </li>
                 <li>
                     <div class="img-holder">
-                        <img src="css/images/slide-img1.png" alt="" />
+                        <img src="./css/images/slide-img1.png" alt="" />
                     </div>
                     <div class="slide-cnt">
                         <h2>E-Consulting</h2>
