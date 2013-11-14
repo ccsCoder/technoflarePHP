@@ -23,6 +23,23 @@
         <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
         <script src="js/functions.js" type="text/javascript"></script>
         <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
+        
+        <script type="text/javascript" src="js/animatedcollapse.js"></script>
+        <script type="text/javascript">
+            animatedcollapse.addDiv('bimicro', 'fade=0,speed=400,group=learning')
+            animatedcollapse.addDiv('etl', 'fade=0,speed=400,group=learning,persist=1,hide=1')
+            animatedcollapse.addDiv('database', 'fade=0,speed=400,group=learning,hide=1')
+            animatedcollapse.addDiv('cloud', 'fade=0,speed=400,group=learning,hide=1')
+
+            animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+                    //$: Access to jQuery
+                    //divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+                    //state: "block" or "none", depending on state
+            }
+
+            animatedcollapse.init()
+
+        </script>
 
     </head>
     <body>
@@ -37,7 +54,7 @@
                     <div class="main">
                         <section class="cols">
                             <div class="col_inner">
-                                <img src="css/images/col-img2.png" alt="" />
+                                <div class="title_img"><img src="css/images/col-img2.png" alt="" /></div>
                                 <div class="col-cnt-inner">
                                     <h2>We are here</h2>
                                     <p>At Techno Flair Lab we help you understand your pain areas and help you get the right solution using industry best practices and standards. We ensure that your business has access to the prime tools to achieve results. Techno Flair Lab is 100% committed to customer satisfaction in all services that we deliver.</p><br>
@@ -100,7 +117,7 @@
                     <!-- end of main -->
 
                     <!-- footer-->
-                    <?php include './comp/footer.php' ?>;
+                    <?php include './comp/footer.php' ?>
                     <!--footer ends-->
                 </div>
                 <!-- end of container -->	

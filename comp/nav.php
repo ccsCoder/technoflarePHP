@@ -31,14 +31,10 @@
                         <li ><a href="main.php?f=solution_for_you">Solution for you</a></li>
                     </ul>
                 </li>
-                <li ><a href="main.php?f=e_recovery">e-Recovery</a>
+                <li ><a href="#">e-Recovery</a>
                     <ul >
-                        <li ><a href="main.php?f=data">Data</a>
-                            <ul >
-                                <li ><a href="main.php?f=recover_your_disk_data">Recover your Hard Disk data</a></li>
-                                <li ><a href="main.php?f=recover_your_laptop">Recover your laptop OS</a></li>
-                            </ul>
-                        </li>
+                        <li ><a href="main.php?f=recover_your_disk_data">Recover your Hard Disk data</a></li>
+                        <li ><a href="main.php?f=recover_your_laptop">Recover your laptop OS</a></li>
                     </ul>
                 </li>
             </ul>
@@ -73,7 +69,7 @@
             <a href="#">e-Laboratory</a>
             <ul >
                 <li ><a href="main.php?f=order_now">Order Now!-CBT</a></li>
-                <li ><a href="main.php?f=online_training">Online Training</a></li>
+                <li ><a href="online_training.php">Online Training</a></li>
                 <li ><a href="main.php?f=career_counselling">Career Counselling</a></li>
             </ul>
         </li>
