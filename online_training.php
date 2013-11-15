@@ -26,22 +26,7 @@
         <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
         
         <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
-        <script type="text/javascript" src="js/animatedcollapse.js"></script>
-        <script type="text/javascript">
-            animatedcollapse.addDiv('bimicro', 'fade=0,speed=400,group=learning')
-            animatedcollapse.addDiv('etl', 'fade=0,speed=400,group=learning,persist=1,hide=1')
-            animatedcollapse.addDiv('database', 'fade=0,speed=400,group=learning,hide=1')
-            animatedcollapse.addDiv('cloud', 'fade=0,speed=400,group=learning,hide=1')
-
-            animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
-                    //$: Access to jQuery
-                    //divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
-                    //state: "block" or "none", depending on state
-            }
-
-            animatedcollapse.init()
-
-        </script>
+        
 
     </head>
     <body>
@@ -60,20 +45,22 @@
                                         <div class="col-cnt-inner">
                                                 <h2>Online Training</h2>
                                                 <p>We provide customized 'Online and Classroom' training as per the individuals capability targeting 'immediate job' for him in IT Sector. We provide innovative learner focused training solutions. Our online Trainings are a low-cost alternative to classroom trainings and is a perfect solution for individuals or small companies who do not have time for an instructor-led class.</p><br>
-                                                        <ul>
-                                                            <li>No waste of Time in Traveling.</li>
-                                                            <li>No Global boundaries.</li>
-                                                            <li>Training delivered by real time software experts having more than 8 years of experience.</li>
-                                                            <li>Access to Training 24x7.</li>
-                                                            <li>Interview questions and real time scenarios discussion on topics covered for the day.</li>
-                                                            <li>Resume preparation and mock up interviews.</li>
-                                                        </ul>
-                                                <a href="#" rel="toggle[bimicro]"><h5>BUSINESS INTELLIGENCE</h5></a>
-                                                    <div id="bimicro" style="width: 100%; display:none">
+                                                <ul>
+                                                    <li>No waste of Time in Traveling.</li>
+                                                    <li>No Global boundaries.</li>
+                                                    <li>Training delivered by real time software experts having more than 8 years of experience.</li>
+                                                    <li>Access to Training 24x7.</li>
+                                                    <li>Interview questions and real time scenarios discussion on topics covered for the day.</li>
+                                                    <li>Resume preparation and mock up interviews.</li>
+                                                </ul>
+                                                <br/>
+                                                <ul>
+                                                    <li><h3 class="accordion_header">Business Intelligence </h3>
+                                                    <div class="accordion_detail">
                                                         <ul>
                                                             <li>
                                                             <p class="sub-cat_item_skc">According to leading analysts, Business Intelligence (BI) has been a top priority for worldwide organizations over the past five years, and will continue to be a priority in the near future. With a global user base of millions, Cognos is known as a leading provider of Business Intelligence tools. Cognos's latest release is Cognos 8 BI, a powerful suite of modules that share one common infrastructure for creating, managing, and deploying queries, reports, analyses, scorecards, dashboards, and alerts - all designed to support an organization's Business Intelligence objectives. As a Business Intelligence expert, you will have several opportunities to work in areas of information strategy development, logical and physical data modeling, Metadata management, extracting-transforming-loading (ETL) data with tools like, Informatica, DataStage, Ab- Initio staging techniques and Business intelligence front end tools.</p>
-                                                            <span>IBM Cognos 8.4 BI Reporting</span>
+                                                            <h5><span>IBM Cognos 8.4 BI Reporting</span></h5>
                                                             <p class="sub-cat_item_skc">
                                                                 <ul>
                                                                     <li class="sub-cat_item_skc">Reporting: <p class="sub-cat_item_skc">IBM Cognos 8 BI Reporting enables you to make smarter business decisions by providing a comprehensive set of reporting capabilities and access to the information you need. Reporting with IBM Cognos 8 BI delivers a single, Web-based, solution for all components of the reporting lifecycle:</p></li>
@@ -89,38 +76,52 @@
                                                                 </ul>
                                                             </p>
                                                             </li>
-                                                            <li><span>Microstrategy</span><p>With our comprehensive curriculum and highly skilled education consultants, MicroStrategy Education Services supplies the right skills at the right time to the right audience. In any given year, more than 10,000 customers and partners from over 800 different organizations benefit from MicroStrategy instruction. MicroStrategy is pleased to now offer Online Training — with 24/7 access to more than 200 hours of online courses.</p></li>
+                                                            <li>
+                                                                <h5><span>Microstrategy</span></h5>
+                                                                <p>With our comprehensive curriculum and highly skilled education consultants, MicroStrategy Education Services supplies the right skills at the right time to the right audience. In any given year, more than 10,000 customers and partners from over 800 different organizations benefit from MicroStrategy instruction. MicroStrategy is pleased to now offer Online Training — with 24/7 access to more than 200 hours of online courses.</p></li>
                                                         </ul>
-                                                    </div>
-                                                <a href="#" rel="toggle[etl]"><h5>ETL (Extract-Transform-Load) for DATA WAREHOUSE</h5></a>
-                                                    <div id="etl" style="width: 100%; display:none">
+                                                    </div></li>
+                                                    <li><h3 class="accordion_header">ETL (Extract-Transform-Load) for Data Warehouse </h3>
+                                                    <div class="accordion_detail" >
                                                         <ul>
                                                             <li><p class="sub-cat_item_skc">Extract, transform, and load (ETL) is a process in database usage and especially in data warehousing that involves: </p>Extracting data from outside sources</li>
                                                             <li>Transforming it to fit operational needs (which can include quality levels)</li>
                                                             <li>Loading it into the end target (database or data warehouse) .</li>
-                                                            <li><span>Informatica</span><p>With more companies recognizing ETL as critical to their business operations, the Informatica Platform's high-performance solution for accessing and integrating data from virtually any business system has become the ETL software of choice.<br>PowerCenter improves the flexibility of your ETL process with the ability to extract more enterprise data-types than any other technology on the market. Complemented by Informatica PowerExchange and PowerCenter Options, PowerCenter delivers successful ETL initiatives with access to virtually any enterprise data-type, including:</p>
+                                                            <li>
+                                                                <h5><span>Informatica</span></h5>
+                                                                <p>With more companies recognizing ETL as critical to their business operations, the Informatica Platform's high-performance solution for accessing and integrating data from virtually any business system has become the ETL software of choice.<br>PowerCenter improves the flexibility of your ETL process with the ability to extract more enterprise data-types than any other technology on the market. Complemented by Informatica PowerExchange and PowerCenter Options, PowerCenter delivers successful ETL initiatives with access to virtually any enterprise data-type, including:</p>
                                                                 <ul>
                                                                     <li>Structured, unstructured, and semi-structured data</li>
                                                                     <li>Relational, mainframe, file, and standards-based data</li>
                                                                     <li>Message queue data</li>
                                                                 </ul>
                                                             </li>
-                                                            <li><span>Datastage</span><p>IBM InfoSphere DataStage is an ETL tool and part of the IBM Information Platforms Solutions suite and IBM InfoSphere. It uses a graphical notation to construct data integration solutions and is available in various versions such as the Server Edition and the Enterprise Edition.</p></li>
+                                                            <li>
+                                                                <h5><span>Datastage</span></h5>
+                                                                <p>IBM InfoSphere DataStage is an ETL tool and part of the IBM Information Platforms Solutions suite and IBM InfoSphere. It uses a graphical notation to construct data integration solutions and is available in various versions such as the Server Edition and the Enterprise Edition.</p></li>
                                                         </ul>
                                                     </div>
-                                                <a href="#" rel="toggle[database]"><h5>DATABASE</h5></a>
-                                                    <div id="database" style="width: 100%; display:none">
+                                                    </li>
+                                                    <li><h3 class="accordion_header">Database</h3>
+                                                    <div class="accordion_detail" >
                                                         <ul>
                                                             <li>
                                                                 <p>A database consists of an organized collection of data for one or more uses, typically in digital form. One way of classifying databases involves the type of their contents, for example: bibliographic, document-text, statistical. Digital databases are managed using database management systems, which store database contents, allowing data creation and maintenance, and search and other access. </p>
-                                                                <span>Oracle10g/11i</span><p>The Oracle Database (commonly referred to as Oracle RDBMS or simply as Oracle) is a relational database management system (RDBMS) produced and marketed by Oracle Corporation. As of 2010, Oracle has been a major presence in database computing for many years.</p>
+                                                                <h5><span>Oracle10g/11i</span></h5>
+                                                                <p>The Oracle Database (commonly referred to as Oracle RDBMS or simply as Oracle) is a relational database management system (RDBMS) produced and marketed by Oracle Corporation. As of 2010, Oracle has been a major presence in database computing for many years.</p>
                                                             </li>
-                                                            <li><span>Microsoft SQL Server 2008</span><p>Microsoft SQL Server is a relational model database server produced by Microsoft. Its primary query languages are T-SQL and ANSI SQL</p></li>
+                                                            <li>
+                                                                <h5><span>Microsoft SQL Server 2008</span></h5>
+                                                                <p>Microsoft SQL Server is a relational model database server produced by Microsoft. Its primary query languages are T-SQL and ANSI SQL</p></li>
                                                         </ul>
                                                     </div>
-                                                <a href="#" rel="toggle[cloud]"><h5>CLOUD COMPUTING and VIRTUALIZATION</h5></a>
-                                                <div id="cloud" style="width: 100%; display:none">Maecenas velit ipsum, dapibus eget, ultrices vel, ullamcorper nec, purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ac urna lobortis leo tempor blandit. </div>
-                                        </div>
+                                                    </li>
+                                                    <li><h3 class="accordion_header">Cloud Computing and Virtualization</h3>
+                                                        <div class="accordion_detail">Maecenas velit ipsum, dapibus eget, ultrices vel, ullamcorper nec, purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ac urna lobortis leo tempor blandit. </div>
+                                                        
+                                                    </li>
+                                      </ul>
+                                                </div>
                                 </div>
                                 <div class="cl">&nbsp;</div>
                         </section>

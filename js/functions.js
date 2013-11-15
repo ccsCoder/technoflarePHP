@@ -10,10 +10,12 @@ $(function() {
 	});
         
         $('#navigationMenu').smartmenus();
-        
-        
-
-
+        //The Sliders ...
+        $(".accordion_header").bind("click", function(event) {
+           $(this).next().addClass("current_accordion_item");
+           $(".accordion_detail").not(".current_accordion_item").slideUp("slow");
+           $(this).next().slideToggle("slow",function() {$(".accordion_detail").removeClass("current_accordion_item")}); 
+        });
 
 });
 

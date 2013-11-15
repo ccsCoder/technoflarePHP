@@ -153,6 +153,64 @@ li.sub-cat_item_skc {
 p.sub-cat_item_skc {
     color:#828282;
 }
+
+/* Styles for Collapsable Headers */
+
+@keyframes slideToAttention {
+/*  from {
+    margin-left: 100%;
+    width: 300%; 
+  }*/
+
+  to {
+    padding-left:40px;
+    /*width: 100%;*/
+  }
+}
+
+.accordion_header {
+    cursor:pointer; 
+    border-bottom: 1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    -webkit-bottom-left-radius: 10px;
+    -moz-bottom-left-radius: 10px;
+    -ms-bottom-left-radius: 10px;
+    -o-bottom-left-radius: 10px;
+    
+    border-bottom-right-radius: 10px;
+    -webkit-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    -o-border-bottom-right-radius: 10px;
+    -ms-border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    color: #5e5e5e;
+}
+
+.accordion_header:hover {
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 10px;
+    -webkit-bottom-left-radius: 10px;
+    -moz-bottom-left-radius: 10px;
+    -ms-bottom-left-radius: 10px;
+    -o-bottom-left-radius: 10px;
+    
+    border-bottom-right-radius: 10px;
+    -webkit-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    -o-border-bottom-right-radius: 10px;
+    -ms-border-bottom-right-radius: 10px;
+    padding-left: 25px;
+    
+    color:#339900;
+}
+.accordion_detail {
+    width: 100%; 
+    display:none;
+}
+
+
+
+
 /* #Media Queries
 ================================================== */
 
