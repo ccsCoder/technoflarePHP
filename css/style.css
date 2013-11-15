@@ -208,7 +208,62 @@ p.sub-cat_item_skc {
     display:none;
 }
 
+/* Illustrated Text Holder */
+div.illustrated_text_left {
+    margin-right: 5px;
+    min-height: 170px;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color:#F2F2F2;
+}
+.illustrated_text_left img {
+    float:left;
+    width:150px;
+    height:150px;
+}
 
+.illustrated_text_left p {
+    color:black;
+    padding:10px;
+    
+}
+
+.illustrated_text_left h3 {
+    text-align:left;
+    padding: 7px;
+    color:#2d5900;
+}
+
+
+div.illustrated_text_right {
+    margin-left: 5px;
+    min-height: 170px;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color:#EFF5FB;
+}
+.illustrated_text_right img {
+    float:right;
+    width:150px;
+    height:150px;
+}
+.illustrated_text_right p {
+    color:black;
+    padding:10px;
+}
+
+.illustrated_text_right h3 {
+    text-align: left;
+    padding: 7px;
+    color: #2d5900;
+
+
+}
+
+
+ 
 
 
 /* #Media Queries
