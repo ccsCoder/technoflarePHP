@@ -153,6 +153,119 @@ li.sub-cat_item_skc {
 p.sub-cat_item_skc {
     color:#828282;
 }
+
+/* Styles for Collapsable Headers */
+
+@keyframes slideToAttention {
+/*  from {
+    margin-left: 100%;
+    width: 300%; 
+  }*/
+
+  to {
+    padding-left:40px;
+    /*width: 100%;*/
+  }
+}
+
+.accordion_header {
+    cursor:pointer; 
+    border-bottom: 1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    -webkit-bottom-left-radius: 10px;
+    -moz-bottom-left-radius: 10px;
+    -ms-bottom-left-radius: 10px;
+    -o-bottom-left-radius: 10px;
+    
+    border-bottom-right-radius: 10px;
+    -webkit-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    -o-border-bottom-right-radius: 10px;
+    -ms-border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    color: #5e5e5e;
+}
+
+.accordion_header:hover {
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 10px;
+    -webkit-bottom-left-radius: 10px;
+    -moz-bottom-left-radius: 10px;
+    -ms-bottom-left-radius: 10px;
+    -o-bottom-left-radius: 10px;
+    
+    border-bottom-right-radius: 10px;
+    -webkit-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    -o-border-bottom-right-radius: 10px;
+    -ms-border-bottom-right-radius: 10px;
+    padding-left: 25px;
+    
+    color:#339900;
+}
+.accordion_detail {
+    width: 100%; 
+    display:none;
+}
+
+/* Illustrated Text Holder */
+div.illustrated_text_left {
+    margin-right: 5px;
+    min-height: 170px;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color:#F2F2F2;
+}
+.illustrated_text_left img {
+    float:left;
+    width:150px;
+    height:150px;
+}
+
+.illustrated_text_left p {
+    color:black;
+    padding:10px;
+    
+}
+
+.illustrated_text_left h3 {
+    text-align:left;
+    padding: 7px;
+    color:#2d5900;
+}
+
+
+div.illustrated_text_right {
+    margin-left: 5px;
+    min-height: 170px;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color:#EFF5FB;
+}
+.illustrated_text_right img {
+    float:right;
+    width:150px;
+    height:150px;
+}
+.illustrated_text_right p {
+    color:black;
+    padding:10px;
+}
+
+.illustrated_text_right h3 {
+    text-align: left;
+    padding: 7px;
+    color: #2d5900;
+
+
+}
+
+
+ 
+
+
 /* #Media Queries
 ================================================== */
 
