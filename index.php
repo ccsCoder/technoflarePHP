@@ -23,14 +23,7 @@
         <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
         <script src="js/functions.js" type="text/javascript"></script>
         <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
-        
-        <script>
-            $(window).load(function(){
-              $('#dvLoading').fadeOut(2000);
-            });
-        </script>
-        
- 
+
     </head>
     <body>
         <div id="wrapper">
