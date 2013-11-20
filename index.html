@@ -13,32 +13,32 @@
             }
             .textHolder {
                 font-size: 54pt;
-                font-family: cursive;
-                
+                font-family: Helvetica Neue;
+
                 color:white;
                 text-align: center;
-                
-                
+
+
             }
             .textBar {
                 margin-top: 5%;
-                
+
             }
             .bottom_company {
-                
+
                 margin-top: 10%;
                 color:white;
                 text-align:center;
             }
             .textFragment {
                 display: none;
-                
+
             }
             .icon_story {
                 display:none;
                 /*width:150px;*/
                 /*height:150px;*/
-                
+
             }
             .wrapper {
                 display: table;
@@ -49,129 +49,111 @@
                 display: table-cell; 
                 vertical-align: middle;
             }
-            
+
             .companyLabel {
-                
+
                 font-size: 48pt;
                 text-align: center;
                 color:white;
                 font-style: italic;
                 font-family: Helvetica Neue;
             }
-            
+
             .css_btn_class {
-                    font-size:16px;
-                    font-family:Arial;
-                    font-weight:bold;
-                    -moz-border-radius:7px;
-                    -webkit-border-radius:7px;
-                    border-radius:7px;
-                    border:2px solid white;
-                    cursor: pointer;
-                    max-width: 200px;
-                    max-height: 50px;
-                    width:200px;
-                    padding:20px;
-                    display:none;
-                    
-                    
+                font-size:16px;
+                font-family:Arial;
+                font-weight:bold;
+                -moz-border-radius:7px;
+                -webkit-border-radius:7px;
+                border-radius:7px;
+                border:2px solid white;
+                cursor: pointer;
+                max-width: 200px;
+                max-height: 50px;
+                width:200px;
+                padding:20px;
+                display:none;
+
+
             }.css_btn_class:hover {
                 border: 2px solid orange;
                 color:orange;
-                    
+
             }.css_btn_class:active {
-                    
+
             }
             .css_btn_class a:link {text-decoration:none;color:white;}
             .css_btn_class a:visited {text-decoration:none;color:white;}
-            .css_btn_class a:hover {text-decoration:underline;color:white;}
-            .css_btn_class a:active {text-decoration:underline;color:white;}
+            .css_btn_class a:hover {text-decoration:none;color:orange;}
+            .css_btn_class a:active {text-decoration:none;color:white;}
 
-            #dvLoading {
-                    background:url(images/preloader.gif) no-repeat center center;
-                    height: 100px;
-                    width: 100px;
-                    position: fixed;
-                    left: 50%;
-                    top: 50%;
-                    margin: -25px 0 0 -25px;
-                    z-index: 1000;
-                   }
+
         </style>
         <script type="text/javascript">
             var animDelay = 2000;
+            var images = [];
+            function preload(arrayOfImages) {
+                $(arrayOfImages).each(function(index, value) {
+                    images[index] = new Image();
+                    images[index].src = value;
+                    //console.log("preloaded-"+value)
+                    // Alternatively you could use:
+                    // (new Image()).src = this;
+                });
+            }
+
+
+
+
             $(document).ready(function(e) {
-               $(".icon_story:first").fadeIn(animDelay,function(e) {
-                   $(".textFragment:first").fadeIn(animDelay,function(e) {
-                       $(".textFragment:eq(1)").fadeIn(animDelay,function(e) {
-                           $(".icon_story:last").fadeIn(animDelay,function(e) {
-                               $(".textFragment:last").fadeIn(animDelay,function(e) {
-                                   setTimeout(function(e) {
-                                       $(".textFragment:first").fadeOut(animDelay,function(e) {
-                                           $(".textFragment:eq(1)").fadeOut(animDelay,function(e) {
-                                               $(".textFragment:last").text("Technoflair Labs.");
-                                               $(".css_btn_class").slideDown("slow");
-                                           });
-                                           
-                                       });
-                                       
-                                       
-                                   },animDelay);
-                               });
-                           });
-                            
-                     });
-                   });
-                   
-               })
-               
+                // Usage:
+                //console.log("Loading...")
+                preload([
+                    'images/blueback.jpg',
+                    'images/laboratory-icon.png',
+                    'images/idea-xxl.png'
+                ]);
+                $(".companyLabel").remove();
+                //console.log("Done...!");
+                $(".icon_story:first").fadeIn(animDelay, function(e) {
+                    $(".textFragment:first").fadeIn(animDelay, function(e) {
+                        $(".icon_story:last").fadeIn(animDelay, function(e) {
+                            $(".textFragment:last").fadeIn(animDelay, function(e) {
+                                setTimeout(function(e) {
+                                    $(".textFragment:first").text("Technoflair");
+                                    $(".textFragment:last").text(" Labs.");
+                                    $(".css_btn_class").fadeIn("slow");
+                                }, animDelay);//settimeout
+
+                            });
+                        });
+
+                    });
+                });
+                $(".css_btn_class").bind("click", function(e) {
+                    window.location.href = "index.php";
+                });
             });
         </script>
-        
-        <script>
-            $(document).ready(function() {
-                var iSrc = "images/blueback.jpg";
 
-                var rndNum = Math.random();
-
-                iSrc = iSrc + "?q=" + rndNum;
-
-                $('body').attr('background', iSrc);
-
-            });
-
-            $(window).bind("load", function() {
-                $('#dvLoading').fadeOut(2000);           
-            });
-        </script>
     </head>
     <body>
-<!--        <div style="text-align:center">
-            <div class="companyLabel">Technoflair Labs.</div>
-        </div>-->
-        
-             <div id="dvLoading"></div>
-             <div class='textBar'>
-                <div class="textHolder">
-                    <img class="icon_story" src="images/idea-xxl.png" alt="ideas"/>
-                    <!--<div class="wrapper">-->
-                        <!--<div class="verticalTextHolder">-->
-                            <span class="textFragment">Ideas</span>
+        <div style="text-align:center">
+            <div class="companyLabel">Loading...</div>
+        </div>
+        <div class='textBar'>
+            <div class="textHolder">
+                <img class="icon_story" src="images/idea-xxl.png" alt="ideas"/>
+                <span class="textFragment">Ideas..</span>
 
-                            <span class="textFragment">that</span>
-                            <span class="textFragment">Work!</span>
-                        <!--</div>-->
-                    <!--</div>-->
-                    <img class="icon_story" src="images/CogWheel_2.png" alt="cogwheel" />
-
-
-                </div>
-                <div class="bottom_company">
-                    <span class="css_btn_class">
-                        <a href="index.php">Find out NOW !</a>
-                    </span>
-                </div>
+                <span class="textFragment">that WORK!</span>
+                <img class="icon_story" src="images/laboratory-icon.png" alt="cogwheel" />
             </div>
-        
+            <div class="bottom_company">
+                <span class="css_btn_class ">
+                    <a href="index.php">Find out HOW!</a>
+                </span>
+            </div>
+        </div>
     </body>
 </html>
