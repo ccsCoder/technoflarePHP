@@ -37,7 +37,6 @@
                 <div class="container">
                     <?php include 'comp/header.php'; ?>
                     <?php include 'comp/nav.php' ?>
-                    <?php include 'comp/slider.php' ?>
                     <div class="main">					
                         <section class="cols">
                                 <div class="col_inner">
@@ -126,7 +125,7 @@
                                 <div class="cl">&nbsp;</div>
                         </section>
                         <section class="testimonial">
-                                <p><strong class="quote">“</strong>A chance to blot our mistakes and change failure into winning. It does not take a special time to make a brand new start. It only takes the deep desire to try with all our heart.<br> To live a little better, to always be forgiving. To add a little sunshine in a world for which were living. Never give up in despair Nor think you are through. For theres always a tomorrow, a chance to start new.</p>
+                                <p><strong class="quote">“</strong>A chance to blot our mistakes and change failure into winning. It does not take a special time to make a brand new start. It only takes the deep desire to try with all our heart. To live a little better, to always be forgiving. To add a little sunshine in a world for which were living. Never give up in despair Nor think you are through. For theres always a tomorrow, a chance to start new.</p>
                                 <p class="author">Founder@Techno Flair Lab !</p>
                         </section>
                     </div>
