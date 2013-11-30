@@ -20,6 +20,8 @@ $(function() {
 });
 
 $(window).load(function() {
+    if ($('.flexslider').size()===0)
+        return;
 	$('.flexslider').flexslider({
 		animation: "slide",
 		controlsContainer: ".slider-holder",

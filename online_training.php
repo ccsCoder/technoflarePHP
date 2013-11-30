@@ -5,27 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
         <title>Techno Flair Lab</title>
         <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
-        <link rel="stylesheet" type="text/css" href="css/flexdropdown.css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css' />
-
         <link href='css/sm-core-css.css' rel='stylesheet' type='text/css' />
         <link href='css/sm-clean/sm-clean.css' rel='stylesheet' type='text/css' />
-
         <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
-        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>-->
-        <!--<script type="text/javascript" src="js/flexdropdown.js"></script>-->
         <!--[if lt IE 9]>
                 <script src="js/modernizr.custom.js"></script>
         <![endif]-->
-
-        
-        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
         <script src="js/functions.js" type="text/javascript"></script>
         <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
         
-        <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
         
 
     </head>

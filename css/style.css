@@ -31,7 +31,7 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 
 .shell { width: 990px; margin: 0 auto; }
 .container { background: #fff;  box-shadow: 0px 0px 13px rgba(0,0,0,0.3) ; -moz-box-shadow: 0px 0px 13px rgba(0,0,0,0.3) ; -webkit-box-shadow: 0px 0px 13px rgba(0,0,0,0.3) ; -o-box-shadow: 0px 0px 13px rgba(0,0,0,0.3) ;  }
-#header { height: 54px; padding-top: 21px; padding-left: 33px; padding-right: 17px; background: url(images/header_background.png) no-repeat; }
+#header { height: 54px; padding-top: 21px; padding-left: 33px; padding-right: 17px; background: url(images/header_back.png) repeat; }
 #logo { width: 250px; float: left; font-size: 0; line-height: 0;}
 #logo a { height: 40px; display: block; background: url(images/logo.png) no-repeat 0 0;  text-indent: -4000px; }
 
@@ -66,7 +66,7 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 .flex-control-nav { left: 480px; }
 .main a.m-btn-grey { display: none; }
 
-.main { padding: 47px 0px 0px;  background: url(images/main.png) repeat-x 0 0; }
+.main { margin: 47px 0px 0px;  background: url(images/main.png) repeat-x 0 0; }
 .main h2 { font-size: 22px; color: #2d5900; line-height: 22px; padding-bottom: 8px; font-family: 'Ubuntu', sans-serif; font-weight: 500; }
 .main h3 { font-size: 18px; color: #5e5e5e; line-height: 22px; padding-bottom: 8px; font-family: 'Ubuntu', sans-serif; font-weight: 500;  }
 .main h5 { font-size: 15px; color: #2d5900; padding-bottom: 3px; font-family: 'Ubuntu', sans-serif; }
@@ -262,9 +262,14 @@ div.illustrated_text_right {
 
 }
 .nav{
-    background-color: #d6d6d6;
+    /*background-color: #EFF5FB;*/
     //border: 1px solid;
     //background: url(images/socials-inner.png)
+    -webkit-box-shadow:0px 2px 12px rgba(48, 50, 50, 0.75);
+    -moz-box-shadow:   0px 2px 12px rgba(48, 50, 50, 0.75);
+    box-shadow:        0px 2px 12px rgba(48, 50, 50, 0.75);
+    
+    
 }
 
 
@@ -320,7 +325,7 @@ padding-right: 20px;
 	.slider ul.slides li .box-cnt { width: 285px; }
 	.slider ul.slides li .slide-cnt h2 { font-size: 40px; line-height: 40px; padding-bottom: 16px; color: #fff; text-shadow: rgba(0,0,0,0.4) 0px 1px 2px; font-family: 'Ubuntu', sans-serif; font-weight: 700; }
 	
-	.main { padding: 47px 0 0 0;  }
+	.main { margin: 47px 0 0 0;  }
 	.main section { background: url(images/t-section-shadow.png) no-repeat center bottom; padding-left: 20px; padding-right: 20px;  }
 	.main .cols { margin: 0 0 0 0; padding-left: 30px; padding-right: 22px;   }
 	.main .cols .col { width: 188px; }
@@ -383,7 +388,7 @@ padding-right: 20px;
 	.slider ul.slides li .slide-cnt h2 { font-size: 22px; text-align: center;  line-height: 25px; padding-bottom: 16px; color: #fff; text-shadow: rgba(0,0,0,0.4) 0px 1px 2px; font-family: 'Ubuntu', sans-serif; font-weight: 700; }
 	.slider ul.slides li .slide-cnt a.grey-btn { display: none;  }
 
-	.main { padding: 40px 0 0 0; }
+	.main { margin: 40px 0 0 0; }
 	.main section { background: url(images/m-section-shadow.png) no-repeat center bottom; padding: 0 20px 20px 20px; }
 	.main .cols { margin: 0 0 0 0; }
 	.main .cols .col { width: 188px; float: none; display: block; padding-bottom: 22px; margin: 0 auto; }

@@ -5,7 +5,6 @@
 ?>
 
 <!-- slider -->
-<div id="dvLoading"></div>
 <div class="m-slider">
     <div class="slider-holder">
         <span class="slider-shadow"></span>
