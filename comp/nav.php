@@ -19,7 +19,7 @@
 
         <li class="nav-menu_item_neo">
             <a href="#">e-Lab</a>
-            <ul >
+            <!--<ul >
                 <li ><a href="main.php?f=research_development">Research & Development</a>
                     <ul >
                         <li ><a href="main.php?f=innovation">Innovation</a>
@@ -37,12 +37,12 @@
                         <li ><a href="main.php?f=recover_your_laptop">Recover your laptop OS</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul>-->
         </li>
 
         <li class="nav-menu_item_neo">
             <a href="#">e-Technologies</a>
-            <ul >
+            <!--<ul >
                 <li ><a href="main.php?f=business_intelligence">Business Intelligence</a>
                     <ul >
                         <li ><a href="main.php?f=ibm_cognos">IBM Cognos</a>
@@ -63,19 +63,19 @@
                         <li ><a href="main.php?f=virtualization">Virtualization</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul>-->
         </li>
         <li class="nav-menu_item_neo">
             <a href="#">e-Laboratory</a>
             <ul >
-                <li ><a href="main.php?f=order_now">Order Now!-CBT</a></li>
+                <!--<li ><a href="main.php?f=order_now">Order Now!-CBT</a></li>-->
                 <li ><a href="online_training.php">Online Training</a></li>
-                <li ><a href="main.php?f=career_counselling">Career Counselling</a></li>
+                <!--<li ><a href="main.php?f=career_counselling">Career Counselling</a></li>-->
             </ul>
         </li>
         <li class="nav-menu_item_neo">
             <a href="#">e-Consulting</a>
-            <ul>
+            <!--<ul>
                 <li ><a href="main.php?f=business_consulting">Business Consulting</a></li>
                 <li ><a href="main.php?f=it_consulting">IT Consulting</a>
                     <ul >
@@ -84,14 +84,14 @@
                     </ul>
                 </li>
                 <li ><a href="main.php?f=product_consulting">Product Consulting</a></li>
-            </ul>
+            </ul>-->
         </li>
         <li class="nav-menu_item_neo">
             <a href="#">i-Connect</a>
-            <ul >
+            <!--<ul >
                 <li ><a href="main.php?f=worldwide">Worldwide</a></li>
                 <li ><a href="main.php?f=references">References</a></li>
-            </ul>
+            </ul>-->
         </li>
     </ul>
 
