@@ -273,14 +273,14 @@ div.illustrated_text_right {
 }
 
 
-.navbar-fixed-top {
+/*.navbar-fixed-top {
 position: fixed;
 top: 0;
 right: 0;
 left: 0;
-z-index: 1030;
+//z-index: 1030;
 }
-/*.navbar {
+.navbar {
 overflow: visible;
 margin-bottom: 18px;
 }
