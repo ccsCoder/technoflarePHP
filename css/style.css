@@ -66,7 +66,7 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 .flex-control-nav { left: 480px; }
 .main a.m-btn-grey { display: none; }
 
-.main { margin: 47px 0px 0px;  background: url(images/main.png) repeat-x 0 0; }
+.main { margin: 47px 0px 0px;  background: url(images/main.png) repeat-x 0 0;  }
 .main h2 { font-size: 22px; color: #2d5900; line-height: 22px; padding-bottom: 8px; font-family: 'Ubuntu', sans-serif; font-weight: 500; }
 .main h3 { font-size: 18px; color: #5e5e5e; line-height: 22px; padding-bottom: 8px; font-family: 'Ubuntu', sans-serif; font-weight: 500;  }
 .main h5 { font-size: 15px; color: #2d5900; padding-bottom: 3px; font-family: 'Ubuntu', sans-serif; }
