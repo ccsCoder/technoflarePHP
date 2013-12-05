@@ -23,9 +23,21 @@
         <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
         <script src="js/functions.js" type="text/javascript"></script>
         <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var handle = new EventHandlers();
+            var bs = new Bootstrap();
+            //set parameters
+            bs.handler=handle;
+            bs.carousel=true;   //events is true by default, carousel is disabled by default, expandcollapse is disabled by default.
+            $(document).ready(function(e) {
+               bs.init(bs); 
+            });
+        </script>
 
     </head>
     <body>
+        <?php include 'comp/overlay.php'; ?>
+        
         <div id="wrapper">
             <!-- shell -->
             <div class="shell">

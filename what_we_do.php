@@ -15,9 +15,19 @@
         <![endif]-->
         <script src="js/functions.js" type="text/javascript"></script>
         <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var handle = new EventHandlers();
+            var bs = new Bootstrap();
+            //set parameters
+            bs.handler=handle;
+            $(document).ready(function(e) {
+               bs.init(bs); 
+            });
+        </script>
 
     </head>
     <body>
+        <?php include 'comp/overlay.php'; ?>
         <div id="wrapper">
             <!-- shell -->
             <div class="shell">
