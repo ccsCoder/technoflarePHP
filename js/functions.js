@@ -1,58 +1,16 @@
-$(function() {
 
-//        //Init the menu
-//        $('#navigationMenu').smartmenus({
-//            markCurrentItem: true,
-//            markCurrentTree: true,
-//            keepHighlighted: true
-//        });
-//        
-//        //Init the click handlers 
-//        $('#navigationMenu').bind('click.smapi', function(e, item) {
-//            console.log($(item).text());
-//            if ($(item).text()=="Contact Us!")
-//                invokeContactForm();
-//        });
-//        
-//        //The Expand/Collapse Headers ...
-//        $(".accordion_header").bind("click", function(event) {
-//           $(this).next().addClass("current_accordion_item");
-//           $(".accordion_detail").not(".current_accordion_item").slideUp("slow");
-//           $(this).next().slideToggle("slow",function() {$(".accordion_detail").removeClass("current_accordion_item")}); 
-//        });
-//        // To initially run the function:
-//        $(window).resize();
-
-});
-
-$(window).load(function() {
-//    if ($('.flexslider').size()===0)
-//        return;
-//	$('.flexslider').flexslider({
-//		animation: "slide",
-//		controlsContainer: ".slider-holder",
-//		slideshowSpeed: 5000,
-//		directionNav: false,
-//		controlNav: true,
-//		animationDuration: 2000,
-//		before:function( slider ){
-//			$('.img-holder').animate({'bottom' : '-30px'},300)
-//		},
-//
-//		after:function( slider ){
-//			$('.img-holder').animate({'bottom' : '0px'},300)
-//		}
-//	});
-//    
-//    $('#navigationMenu ul').css("z-index",$(".slider-holder").css("z-index")+10);
-});
-
-
-
+/**
+ * class to register and manager all event handler functions
+ * @returns {EventHandlers}
+ */
 function EventHandlers () {
     
 }
 
+/**
+ * Method to invoke the Contact form
+ * @returns {undefined}
+ */
 EventHandlers.prototype.invokeContactForm = function() {
     //Invoke the mail function here...
     //admin@technoflairlab.com
@@ -63,14 +21,26 @@ EventHandlers.prototype.invokeContactForm = function() {
     });
 };
 
+/**
+ * Method that submits query through mail
+ * @returns {undefined}
+ */
 EventHandlers.prototype.submitQueryThroughMail = function() {
     $(".overlay").hide();
-}
+};
 
+/**
+ * Method to close the contact form.
+ * @returns {undefined}
+ */
 EventHandlers.prototype.closeContactForm = function() {
     $(".overlay").hide();
-}
+};
 
+/**
+ * Window Resize Listener.
+ * @returns {undefined}
+ */
 EventHandlers.prototype.windowResize = function() {
     $(window).resize(function(){
     
