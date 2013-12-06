@@ -63,7 +63,7 @@
                                 <div class="col-cnt">
                                     <h2>Support</h2>
                                     <p>We provide support in Business Intelligence(Administration and Report Development)</p>
-                                    <a href="#" class="more">view more</a>
+                                    <a href="manage_support_services.php" class="more">view more</a>
                                 </div>
                             </div>
                             <div class="col">
@@ -71,7 +71,7 @@
                                 <div class="col-cnt">
                                     <h2>Training</h2>
                                     <p>We provide customized <strong>'Online and Classroom'</strong> Training</p>
-                                    <a href="#" class="more">view more</a>
+                                    <a href="online_training.php" class="more">view more</a>
                                 </div>
                             </div>
                             <div class="col">
@@ -79,7 +79,7 @@
                                 <div class="col-cnt">
                                     <h2>Consulting</h2>
                                     <p>We provide services in <strong>design, architecture, Installation, Development and implementation</strong> <!--of data warehouse and other business intelligence solutions. If you are considering modifying or building a data warehouse for your organization or if your company is in need of a high level of staffing service, please explore our website and <strong>contact us</strong> for more information about <strong>what we can do for you!</strong>--> </p>
-                                    <a href="#" class="more">view more</a>
+                                    <a href="consulting.php" class="more">view more</a>
                                 </div>
                             </div>
                             <div class="cl">&nbsp;</div>
