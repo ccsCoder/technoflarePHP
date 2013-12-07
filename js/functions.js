@@ -1,5 +1,41 @@
 
 /**
+ * Class containing validations...
+ * @returns {Validator}
+ */
+function Validator () {
+    this.isValid=false;
+}
+
+/**
+ * Validator Method to check if the field is not empty...
+ * @param {type} stringToCheck
+ * @returns {Boolean}
+ */
+Validator.prototype.isEmpty = function(stringToCheck) {
+  return stringToCheck.trim().length===0;  
+};
+
+/**
+ * Validator Method to check if the email is valid.
+ * @param {type} email
+ * @returns {Boolean}
+ */
+Validator.prototype.isValidEmail = function(email) {
+    var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+    if ( reg.test(email) ) {
+        return true; 
+    }
+    else {
+        return false;
+    }
+};
+
+Validator.prototype.markInputAsError = function(control) {
+  $(control).css("border-color","red");
+  $(control).val("You left me empty!");
+};
+/**
  * class to register and manager all event handler functions
  * @returns {EventHandlers}
  */
@@ -17,7 +53,6 @@ EventHandlers.prototype.invokeContactForm = function() {
     $(".overlay").fadeIn(50,function(e) {
         $(".box-content-holder").show();
             $(window).resize();
-        
     });
 };
 
@@ -26,6 +61,27 @@ EventHandlers.prototype.invokeContactForm = function() {
  * @returns {undefined}
  */
 EventHandlers.prototype.submitQueryThroughMail = function() {
+    //Start Validation
+    var validator = new Validator();
+    
+    if (validator.isEmpty($("#queryFormName").val())) {
+        validator.markInputAsError($("#queryFormName"));
+        return;
+    }
+    if(validator.isEmpty($("#queryEmailID").val())) {
+        validator.markInputAsError($("#queryEmailID"));
+        return;
+    }
+    if(validator.isEmpty($("#queryText").val())) {
+        validator.markInputAsError($("#queryText"));
+        return;
+    }
+    if(validator.isValidEmail($("#queryEmailID").val())===false) {
+        validator.markInputAsError($("#queryEmailID"));
+        $("#queryEmailID").val("Invalid Email!");
+        return;
+    }
+    
     $(".overlay").hide();
 };
 
