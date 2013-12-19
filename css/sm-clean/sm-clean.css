@@ -72,7 +72,7 @@
 	.sm-clean a {
 		padding:12px;
 		color:#555;
-		font-size:18px;
+		font-size:16px;
 		line-height:17px;
 		font-family:'Lucida Sans Unicode','Lucida Sans','Lucida Grande',Arial,sans-serif;
 		text-decoration:none;
@@ -98,7 +98,7 @@
 		padding-right:40px;
 	}
 	.sm-clean ul a {
-		font-size:16px;
+		font-size:14px;
 	}
 	.sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active,
 	.sm-clean ul a.highlighted {

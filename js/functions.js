@@ -167,6 +167,8 @@ Bootstrap.prototype.attachEventHandlers = function(bs) {
     //add close event on contact form.
     $(".close").on("click",bs.handler.closeContactForm);
     $("#submitQuery").on("click",{},bs.handler.submitQueryThroughMail);
+    //add invoke mail on the social inner.
+    $(".john-doe-123-ico").on("click",{},bs.handler.invokeContactForm);
 };
 
 /**

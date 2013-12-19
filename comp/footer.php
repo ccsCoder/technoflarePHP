@@ -7,11 +7,11 @@
     <div class="socials-inner">
         <h3>Follow us</h3>
         <ul>
-            <li><a href="#" class="facebook-ico"><span></span>Facebook</a></li>
-            <li><a href="#" class="twitter-ico"><span></span>Twitter</a></li>
-            <li><a href="#" class="rss-feed-ico"><span></span>Rss-feed</a></li>
-            <li><a href="#" class="myspace-ico"><span></span>myspace</a></li>
-            <li><a href="#" class="john-doe-123-ico"><span></span>john.doe.123</a></li>
+            <li><a href="https://www.facebook.com/technoFlairLabs" target="_blank" class="facebook-ico"><span></span>Facebook</a></li>
+            <li><a href="https://twitter.com/technoflairlab" target="_blank" class="twitter-ico"><span></span>Twitter</a></li>
+            <!--<li><a href="#" class="rss-feed-ico"><span></span>Rss-feed</a></li>-->
+            <!--<li><a href="#" class="myspace-ico"><span></span>myspace</a></li>-->
+            <li><a class="john-doe-123-ico"><span></span>E-Mail Us</a></li>
         </ul>
         <div class="cl">&nbsp;</div>
     </div>

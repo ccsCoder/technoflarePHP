@@ -3,9 +3,9 @@
 body, html { height: 100%; }
 
 body {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
-    font-family: arial, sans-serif;
+    font-family: 'Ubuntu',serif;
     color: #000000;
     background: url(images/body.png) repeat 0 0;
     min-width: 100%;
@@ -18,7 +18,7 @@ a:hover { text-decoration: underline; }
 a img { border: 0; }
 a.more { color: #2b9208; text-decoration: underline; padding-left: 11px; background: url(images/arr-ico.png) no-repeat 0 5px; }
 a.more:hover { text-decoration: none;  }
-input, textarea, select { font-size: 12px; font-family: arial, sans-serif; }
+input, textarea, select { font-size: 12px; }
 textarea { overflow: auto; }
 .title_img {float:left;}
 
@@ -96,11 +96,11 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 .main .testimonial { padding-top: 20px; padding-bottom: 20px;  text-align: center; background: transparent; }
 .main .testimonial strong.quote { font-size: 28px; font-family: georgia ,arial, helvetica, serif; position: relative; top: 10px; left: -6px; }
 .testimonial h2 { padding-bottom: 12px; }
-.testimonial p { padding-bottom: 6px; }
-.testimonial p.author { text-align: right; }
+.testimonial p { padding-bottom: 6px; background-color:#EFF5FB; border-radius: 10px }
+.testimonial p.author { text-align: right; font-weight: bold;font-style: italic }
 
 .socials { background: url(images/socials-bg.png) repeat-x 0 0;  height: 49px;  }
-.socials-inner { background: url(images/socials-inner.png) repeat-x 0 0; padding-left: 200px;}
+.socials-inner { background: url(images/socials-inner.png) repeat-x 0 0; padding-left: 30%;}
 .socials h3 { float: left; font-size: 18px; line-height: 49px; padding-right: 19px; padding-bottom: 0; font-family: 'Ubuntu', sans-serif; font-weight: 500;  }
 .socials ul { list-style: none; list-style-position: outside; line-height: 49px;  }
 .socials ul li { font-size: 11px; padding-right: 18px;  color: #7c7c7c; background: transparent; text-transform: uppercase; float: left; }
@@ -306,7 +306,7 @@ div.illustrated_text_right {
     /*height:200px;*/
     font-size: 14px;
     line-height: 22px;
-    font-family: arial, sans-serif;
+    /*font-family: arial, sans-serif;*/
     padding: 10px;
     min-width: 40%;
     min-height: 30%;
@@ -351,7 +351,7 @@ div.illustrated_text_right {
 /* some buttons */
 .css_btn_class {
     font-size:16px;
-    font-family:Arial;
+/*    font-family:Arial;*/
     font-weight:bold;
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
