@@ -18,79 +18,79 @@
         </li>
 
         <li class="nav-menu_item_neo">
-            <a href="#">e-Lab</a>
-            <ul >
-                <li ><a href="main.php?f=research_development">Research & Development</a>
-                    <ul >
-                        <li ><a href="main.php?f=innovation">Innovation</a>
+            <a href="#" class="wip">e-Lab</a>
+            <ul>
+                <li><a class="wip">Research & Development</a>
+                    <ul>
+                        <li><a class="wip">Innovation</a>
                             <ul >
-                                <li ><a href="main.php?f=about_ideas">Team-Passionate about ideas</a></li>
-                                <li ><a href="main.php?f=helping_to_buid_business">Helping to buid business</a></li>
+                                <li><a class="wip" >Team-Passionate about ideas</a></li>
+                                <li><a class="wip" >Helping to buid business</a></li>
                             </ul>
                         </li>
-                        <li ><a href="main.php?f=solution_for_you">Solution for you</a></li>
+                        <li><a class="wip" >Solution for you</a></li>
                     </ul>
                 </li>
-                <li ><a href="#">e-Recovery</a>
-                    <ul >
-                        <li ><a href="main.php?f=recover_your_disk_data">Recover your Hard Disk data</a></li>
-                        <li ><a href="main.php?f=recover_your_laptop">Recover your laptop OS</a></li>
+                <li><a href="#" class="wip">e-Recovery</a>
+                    <ul>
+                        <li><a class="wip">Recover your Hard Disk data</a></li>
+                        <li><a class="wip">Recover your laptop OS</a></li>
                     </ul>
                 </li>
             </ul>
         </li>
 
         <li class="nav-menu_item_neo">
-            <a href="#">e-Technologies</a>
-            <ul >
-                <li ><a href="main.php?f=business_intelligence">Business Intelligence</a>
-                    <ul >
-                        <li ><a href="main.php?f=ibm_cognos">IBM Cognos</a>
-                            <ul >
-                                <li ><a href="main.php?f=dashboarding">Dashboarding</a></li>
-                                <li ><a href="main.php?f=mobility">Mobility</a></li>
+            <a href="#" class="wip">e-Technologies</a>
+            <ul>
+                <li><a class="wip">Business Intelligence</a>
+                    <ul>
+                        <li><a class="wip">IBM Cognos</a>
+                            <ul>
+                                <li><a class="wip">Dashboarding</a></li>
+                                <li><a class="wip">Mobility</a></li>
                             </ul>
                         </li>
-                        <li ><a href="main.php?f=roambi">ROAMBI</a></li>
-                        <li ><a href="main.php?f=qlik_view">Qlik View</a></li>
-                        <li ><a href="main.php?f=tm1">TM1</a></li>
+                        <li><a class="wip">ROAMBI</a></li>
+                        <li><a class="wip">Qlik View</a></li>
+                        <li><a class="wip">TM1</a></li>
                     </ul>
                 </li>
-                <li ><a href="main.php?f=cloud_computing">Cloud Computing</a></li>
-                <li ><a href="main.php?f=infrastructure_services">Infrastructure Services</a>
-                    <ul >
-                        <li ><a href="main.php?f=platform_designing">Platform Designing</a></li>
-                        <li ><a href="main.php?f=virtualization">Virtualization</a></li>
+                <li><a class="wip">Cloud Computing</a></li>
+                <li><a class="wip">Infrastructure Services</a>
+                    <ul>
+                        <li><a class="wip">Platform Designing</a></li>
+                        <li><a class="wip">Virtualization</a></li>
                     </ul>
                 </li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">
-            <a href="#">e-Laboratory</a>
-            <ul >
-                <li ><a href="main.php?f=order_now">Order Now!-CBT</a></li>
-                <li ><a href="online_training.php">Online Training</a></li>
-                <li ><a href="main.php?f=career_counselling">Career Counselling</a></li>
-            </ul>
-        </li>
-        <li class="nav-menu_item_neo">
-            <a href="#">e-Consulting</a>
+            <a href="#" class="wip">e-Laboratory</a>
             <ul>
-                <li ><a href="main.php?f=business_consulting">Business Consulting</a></li>
-                <li ><a href="main.php?f=it_consulting">IT Consulting</a>
-                    <ul >
-                        <li ><a href="main.php?f=manage_support_services">Manage Support Services</a></li>
-                        <li ><a href="main.php?f=staff_augmentation">Staff augmentation</a></li>
-                    </ul>
-                </li>
-                <li ><a href="main.php?f=product_consulting">Product Consulting</a></li>
+                <li><a class="wip">Order Now!-CBT</a></li>
+                <li><a href="online_training.php">Online Training</a></li>
+                <li><a class="wip">Career Counselling</a></li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">
-            <a href="#">i-Connect</a>
-            <ul >
-                <li ><a href="main.php?f=worldwide">Worldwide</a></li>
-                <li ><a href="main.php?f=references">References</a></li>
+            <a href="#" class="wip" >e-Consulting</a>
+            <ul>
+                <li class="wip" ><a>Business Consulting</a></li>
+                <li ><a class="wip">IT Consulting</a>
+                    <ul>
+                        <li><a class="wip">Manage Support Services</a></li>
+                        <li><a class="wip">Staff augmentation</a></li>
+                    </ul>
+                </li>
+                <li><a class="wip">Product Consulting</a></li>
+            </ul>
+        </li>
+        <li class="nav-menu_item_neo">
+            <a href="#" class="wip">i-Connect</a>
+            <ul>
+                <li><a class="wip">Worldwide</a></li>
+                <li><a class="wip">References</a></li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">

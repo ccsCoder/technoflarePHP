@@ -51,9 +51,18 @@ EventHandlers.prototype.invokeContactForm = function() {
     //Invoke the mail function here...
     //admin@technoflairlab.com
     $(".overlay").fadeIn(50,function(e) {
-        $(".box-content-holder").show();
+        $("#mailer").show();
             $(window).resize();
     });
+};
+
+EventHandlers.prototype.displayWorkInProgress = function (event) {
+    
+     $(".overlay").fadeIn(50,function(e) {
+        $("#workInProgress").show();
+            $(window).resize();
+    });
+    
 };
 
 /**
@@ -91,6 +100,7 @@ EventHandlers.prototype.submitQueryThroughMail = function() {
  */
 EventHandlers.prototype.closeContactForm = function() {
     $(".overlay").hide();
+    $(".box-content-holder").css("display","none");
 };
 
 /**
@@ -161,8 +171,10 @@ Bootstrap.prototype.attachEventHandlers = function(bs) {
     bs.handler.windowResize();
     //Add navigation menu click handlers 
     $('#navigationMenu').bind('click.smapi', function(e, item) {
-            if ($(item).text()=="Contact Us!")
+            if ($(item).text()==="Contact Us!")
                 bs.handler.invokeContactForm();
+            else if($(item).hasClass("wip"))
+                bs.handler.displayWorkInProgress(e);
     });
     //add close event on contact form.
     $(".close").on("click",bs.handler.closeContactForm);

@@ -3,7 +3,7 @@
 ?>
 
 <div class="overlay">
-   <div class="box-content-holder">
+   <div class="box-content-holder" id="mailer">
        
             <div class="box-heading">
                 What's your Query?
@@ -28,6 +28,21 @@
                  <div style="float:right;margin-top: 10px;">
                      <div id='submitQuery' class="css_btn_class">Submit</div>
                  </div>
+            </div>
+
+        </div>
+   </div>
+   <div class="box-content-holder" id="workInProgress">
+       
+            <div class="box-heading">
+                We're still working on this... <br/>
+                <span class="close">X</span>
+            </div>
+       <div style="padding:30px">
+            <div style="text-align: center">
+                <div style="margin:0 auto">
+                    <img src="images/work_in_progress2.png" alt="Work in Progress!" /> 
+                </div>
             </div>
 
         </div>
