@@ -1,0 +1,34 @@
+.android, .icon1, .icon2, .icon4, .icon3{
+	background: url(sprites.png) no-repeat;
+}
+
+.android{
+	background-position: 0 0;
+	width: 150px;
+	height: 150px;
+}
+
+.icon1{
+	background-position: -321px 0;
+	width: 150px;
+	height: 150px;
+}
+
+.icon2{
+	background-position: -159px 0;
+	width: 150px;
+	height: 150px;
+}
+
+.icon4{
+	background-position: -483px 0;
+	width: 150px;
+	height: 150px;
+}
+
+.icon3{
+	background-position: -644px 0;
+	width: 150px;
+	height: 150px;
+}
+
