@@ -21,7 +21,7 @@
             <a href="#" class="wip">e-Lab</a>
             <ul>
                 <li><a class="wip">Research & Development</a>
-                    <ul>
+                   <!-- <ul>
                         <li><a class="wip">Innovation</a>
                             <ul >
                                 <li><a class="wip" >Team-Passionate about ideas</a></li>
@@ -29,13 +29,13 @@
                             </ul>
                         </li>
                         <li><a class="wip" >Solution for you</a></li>
-                    </ul>
+                    </ul>-->
                 </li>
                 <li><a href="#" class="wip">e-Recovery</a>
-                    <ul>
+<!--                   <ul>
                         <li><a class="wip">Recover your Hard Disk data</a></li>
                         <li><a class="wip">Recover your laptop OS</a></li>
-                    </ul>
+                    </ul>-->
                 </li>
             </ul>
         </li>
@@ -44,7 +44,7 @@
             <a href="#" class="wip">e-Technologies</a>
             <ul>
                 <li><a class="wip">Business Intelligence</a>
-                    <ul>
+<!--                    <ul>
                         <li><a class="wip">IBM Cognos</a>
                             <ul>
                                 <li><a class="wip">Dashboarding</a></li>
@@ -54,14 +54,14 @@
                         <li><a class="wip">ROAMBI</a></li>
                         <li><a class="wip">Qlik View</a></li>
                         <li><a class="wip">TM1</a></li>
-                    </ul>
+                    </ul>-->
                 </li>
                 <li><a class="wip">Cloud Computing</a></li>
                 <li><a class="wip">Infrastructure Services</a>
-                    <ul>
+<!--                    <ul>
                         <li><a class="wip">Platform Designing</a></li>
                         <li><a class="wip">Virtualization</a></li>
-                    </ul>
+                    </ul>-->
                 </li>
             </ul>
         </li>
@@ -78,20 +78,20 @@
             <ul>
                 <li class="wip" ><a>Business Consulting</a></li>
                 <li ><a class="wip">IT Consulting</a>
-                    <ul>
+<!--                    <ul>
                         <li><a class="wip">Manage Support Services</a></li>
                         <li><a class="wip">Staff augmentation</a></li>
-                    </ul>
+                    </ul>-->
                 </li>
                 <li><a class="wip">Product Consulting</a></li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">
             <a href="#" class="wip">i-Connect</a>
-            <ul>
+<!--            <ul>
                 <li><a class="wip">Worldwide</a></li>
                 <li><a class="wip">References</a></li>
-            </ul>
+            </ul>-->
         </li>
         <li class="nav-menu_item_neo">
             <a class="nav-menu_item_neo_special" href="#">Contact Us!</a>
