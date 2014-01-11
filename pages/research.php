@@ -44,7 +44,7 @@
                                                 Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                                 Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.</p><br>
                                                 
-                                                <div class="illustrated_text_right">
+                                                    <div class="illustrated_text_right">
                                                         <h3>Innovation</h3>
                                                         <img src="../images/beakers_r.png" alt="android_image"/>
                                                         <p>
