@@ -56,14 +56,14 @@ EventHandlers.prototype.invokeContactForm = function() {
     });
 };
 
-EventHandlers.prototype.displayWorkInProgress = function (event) {
+/*EventHandlers.prototype.displayWorkInProgress = function (event) {
     
      $(".overlay").fadeIn(50,function(e) {
         $("#workInProgress").show();
             $(window).resize();
     });
     
-};
+};*/
 
 /**
  * Method that submits query through mail
@@ -173,8 +173,8 @@ Bootstrap.prototype.attachEventHandlers = function(bs) {
     $('#navigationMenu').bind('click.smapi', function(e, item) {
             if ($(item).text()==="Contact Us!")
                 bs.handler.invokeContactForm();
-            else if($(item).hasClass("wip"))
-                bs.handler.displayWorkInProgress(e);
+//            else if($(item).hasClass("wip"))
+//                bs.handler.displayWorkInProgress(e);
     });
     //add close event on contact form.
     $(".close").on("click",bs.handler.closeContactForm);

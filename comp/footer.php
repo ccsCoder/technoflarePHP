@@ -21,12 +21,12 @@
         <nav class="footer-nav">
             <ul>
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="pages/research.php">e-Lab</a></li>
+                <li><a href="pages/business_intelligence.php">e-Technologies</a></li>
+                <li><a href="#">e-Laboratory</a></li>
+                <li><a href="pages/it_consulting.php">e-Consulting</a></li>
+                <li><a href="pages/iConnect.php">i-Connect</a></li>
+                <li><a href="pages/iConnect.php">Contact Us!</a></li>
             </ul>
         </nav>
         <p class="copy">&copy; Copyright 2013 Techno Flair Lab</p>
