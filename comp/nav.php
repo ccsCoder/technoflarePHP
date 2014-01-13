@@ -1,5 +1,4 @@
 <?php
-//do something here...
 /**
  * this file contains Navigation Bar, separately, to be plugged in whereever required.
  */
@@ -11,9 +10,9 @@
         <li class="nav-menu_item_neo">
             <a><span>about</span></a>
             <ul >
-                <li ><a href="what_we_do.php">What we do?</a></li>
-                <li ><a href="how_we_do.php">How we do?</a></li>
-                <li ><a href="who_we_are.php">Who we are?</a></li>
+                <li><a href="controller.php?ref=whatWeDo">What we do?</a></li>
+                <li><a href="controller.php?ref=howWeDo">How we do?</a></li>
+                <li><a href="controller.php?ref=whoWeAre">Who we are?</a></li>
             </ul>
         </li>
 

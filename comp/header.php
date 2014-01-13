@@ -7,7 +7,7 @@
 
 <!-- header -->
 <header id="header">
-    <h1 id="logo"><a href="index.php">Techno Flair Lab</a></h1>
+    <h1 id="logo"><a href="controller.php?ref=index">Techno Flair Lab</a></h1>
     <!-- search -->
     <div class="search">
         <form method="post">

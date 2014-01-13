@@ -35,7 +35,7 @@
 
     </head>
     <body>
-        <?php include 'comp/overlay.php'; ?>
+          <?php include 'comp/overlay.php'; ?>
         
         <div id="wrapper">
             <!-- shell -->
