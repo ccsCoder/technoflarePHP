@@ -10,16 +10,16 @@
         <li class="nav-menu_item_neo">
             <a><span>about</span></a>
             <ul >
-                <li><a href="controller.php?ref=whatWeDo">What we do?</a></li>
-                <li><a href="controller.php?ref=howWeDo">How we do?</a></li>
-                <li><a href="controller.php?ref=whoWeAre">Who we are?</a></li>
+                <li><a href="whatWeDo">What we do?</a></li>
+                <li><a href="howWeDo">How we do?</a></li>
+                <li><a href="whoWeAre">Who we are?</a></li>
             </ul>
         </li>
 
         <li class="nav-menu_item_neo">
             <a>e-Lab</a>
             <ul>
-                <li><a href ="pages/research.php">Research & Development</a>
+                <li><a href ="research">Research & Development</a>
                    <!-- <ul>
                         <li><a class="wip">Innovation</a>
                             <ul >
@@ -30,7 +30,7 @@
                         <li><a class="wip" >Solution for you</a></li>
                     </ul>-->
                 </li>
-                <li><a href ="pages/recovery.php">e-Recovery</a>
+                <li><a href ="recovery">e-Recovery</a>
 <!--                   <ul>
                         <li><a class="wip">Recover your Hard Disk data</a></li>
                         <li><a class="wip">Recover your laptop OS</a></li>
@@ -42,7 +42,7 @@
         <li class="nav-menu_item_neo">
             <a>e-Technologies</a>
             <ul>
-                <li><a href ="pages/business_intelligence.php">Business Intelligence</a>
+                <li><a href ="businessIntelligence">Business Intelligence</a>
 <!--                    <ul>
                         <li><a class="wip">IBM Cognos</a>
                             <ul>
@@ -55,8 +55,8 @@
                         <li><a class="wip">TM1</a></li>
                     </ul>-->
                 </li>
-                <li><a href ="pages/cloud_computing.php">Cloud Computing</a></li>
-                <li><a href ="pages/infra_services.php">Infrastructure Services</a>
+                <li><a href ="cloud">Cloud Computing</a></li>
+                <li><a href ="infra">Infrastructure Services</a>
 <!--                    <ul>
                         <li><a class="wip">Platform Designing</a></li>
                         <li><a class="wip">Virtualization</a></li>
@@ -68,25 +68,25 @@
             <a>e-Laboratory</a>
             <ul>
                 <li><a class="wip">Order Now!-CBT</a></li>
-                <li><a href="online_training.php">Online Training</a></li>
+                <li><a href="onlineTraining">Online Training</a></li>
                 <li><a class="wip">Career Counselling</a></li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">
             <a>e-Consulting</a>
             <ul>
-                <li><a href="pages/business_consulting.php">Business Consulting</a></li>
-                <li ><a href="pages/it_consulting.php">IT Consulting</a>
+                <li><a href="businessConsulting">Business Consulting</a></li>
+                <li ><a href="itConsulting">IT Consulting</a>
 <!--                    <ul>
                         <li><a class="wip">Manage Support Services</a></li>
                         <li><a class="wip">Staff augmentation</a></li>
                     </ul>-->
                 </li>
-                <li><a href="pages/product_consulting.php">Product Consulting</a></li>
+                <li><a href="productConsulting">Product Consulting</a></li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">
-            <a href="pages/iConnect.php">i-Connect</a>
+            <a href="iConnect">i-Connect</a>
 <!--            <ul>
                 <li><a class="wip">Worldwide</a></li>
                 <li><a class="wip">References</a></li>

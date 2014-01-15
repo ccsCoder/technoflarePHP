@@ -2,14 +2,19 @@
 
 require_once ('config.php');
 
-var_dump($_SERVER);      //SERVER_NAME SERVER_PORT
+$url = substr($_SERVER['REQUEST_URI'], strlen($APP_ROOT));
 
-//$fragment = $_GET["ref"];
-//
-//$url = $locs[$fragment];
-//
-//echo $url;
-//
-//header('Location:'.$url);
+echo "</br>".$url;
+
+$url=str_replace("pages/", "",$url);
+
+echo "</br>".$url;
+
+//echo $locs[$url];
+
+//echo (isset($locs["index"]));
+$frag = $locs[$url];
+
+header('Location:'.$frag);
 
 ?>

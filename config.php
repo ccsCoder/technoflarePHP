@@ -1,6 +1,6 @@
 <?php
 
-$APP_ROOT = "TechnoflarePHP/technoflarePHP/";
+$APP_ROOT = "/TechnoflarePHP/technoflarePHP/";
 
 $locs = array(
     "index"=>"index.php",
