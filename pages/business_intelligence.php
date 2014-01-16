@@ -52,7 +52,7 @@
                     <div class="main">
                         <section class="cols">
                             <div class="col_inner">
-                                <div class="title_img"><img src="../css/images/col-img1.png" alt="" /></div>
+                                <div class="title_img"><img src="../images/bi.png" alt="" /></div>
                                 <div class="col-cnt-inner">
                                     <h2>Business Intelligence</h2>
                                     <p>Business Intelligence doesn’t have any sub menu in it. 
@@ -64,7 +64,7 @@
                                     <div class="illustrated_text_right">
                                         
                                         <h3>IBM Cognos</h3>
-                                        <img src="../images/android.png" alt="android_image"/>
+                                        <img src="../images/cognos.png" alt="cognos"/>
                                         <p>
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                         </p>
@@ -85,7 +85,7 @@
 
                                     <div class="illustrated_text_left">
                                         <h3>ROAMBI</h3>
-                                        <img src="../images/icon3.png" alt="Customer_sols" />
+                                        <img src="../images/roambi.png" alt="ROAMBI" />
                                         <p>Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet</p>
@@ -94,7 +94,7 @@
 
                                     <div class="illustrated_text_right">
                                         <h3>Qlik View</h3>
-                                        <img src="../images/icon2.png" alt="expert services" />
+                                        <img src="../images/qlik.png" alt="Qlik" />
                                         <p>Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet</p>
@@ -103,7 +103,7 @@
 
                                     <div class="illustrated_text_left">
                                         <h3>TM 1</h3>
-                                        <img src="../images/icon1.png" alt="e-learning"/>    
+                                        <img src="../images/tm1.png" alt="TM1 Cognos"/>    
                                         <p>Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet</p>    
