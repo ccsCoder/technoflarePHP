@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
         <title>Techno Flair Lab</title>
-        <link rel="shortcut icon" type="image/x-icon" href="../css/images/favicon.ico" />
+        <link rel="shortcut icon" type="../image/x-icon" href="../css/images/favicon.ico" />
         <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css' />
         <link href='../css/sm-core-css.css' rel='stylesheet' type='text/css' />
@@ -39,7 +39,7 @@
                     <div class="main">
                                         <section class="cols">
 						<div class="col_inner">
-                                                    <div class="title_img"><img src="css/images/col-img2.png" alt="" /></div>
+                                                    <div class="title_img"><img src="../css/images/col-img2.png" alt="" /></div>
 							<div class="col-cnt-inner">
 								<h2>How we do?</h2>
 								<p>When first meeting with a new client, a consultant usually spends time working through existing software programs and pointing out problems. He or she explains how information gaps, lagging computers, and outdated technology are affecting the business at a fundamental level. Once all problems have been identified, the consultant can set up a demo to show the client how new hardware and software makes data easier to manage.</p><br>

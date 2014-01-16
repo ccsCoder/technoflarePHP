@@ -1,6 +1,6 @@
 <?php
 
-$APP_ROOT = "/TechnoflarePHP/technoflarePHP/";
+$APP_ROOT = "/TFL/technoflarePHP/";
 
 $locs = array(
     "index"=>"index.php",
@@ -14,8 +14,8 @@ $locs = array(
     "productConsulting" => "pages/product_consulting.php",
     "recovery" => "pages/recovery.php",
     "research" => "pages/research.php",
-    "whatWeDo" => "pages/how_we_do.php",
-    "howWeDo" => "pages/what_we_do.php",
+    "whatWeDo" => "pages/what_we_do.php",
+    "howWeDo" => "pages/how_we_do.php",
     "whoWeAre" => "pages/who_we_are.php"
     
 );

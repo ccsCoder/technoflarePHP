@@ -2,6 +2,15 @@
 /**
  * this file contains Navigation Bar, separately, to be plugged in whereever required.
  */
+    
+//    /TFL/technoflarePHP/pages/what_we_do.php
+$urlPrefix="";
+if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
+    //This means we're inside "pages" was found
+    $urlPrefix = "../";     //modify
+}
+        
+
 ?>
 <!-- navigation -->
 <div class="nav">
@@ -10,16 +19,16 @@
         <li class="nav-menu_item_neo">
             <a><span>about</span></a>
             <ul >
-                <li><a href="whatWeDo">What we do?</a></li>
-                <li><a href="howWeDo">How we do?</a></li>
-                <li><a href="whoWeAre">Who we are?</a></li>
+                <li><a href=<?php echo $urlPrefix."whatWeDo" ?>>What we do?</a></li>
+                <li><a href=<?php echo $urlPrefix."howWeDo"?>>How we do?</a></li>
+                <li><a href=<?php echo $urlPrefix."whoWeAre"?>>Who we are?</a></li>
             </ul>
         </li>
 
         <li class="nav-menu_item_neo">
             <a>e-Lab</a>
             <ul>
-                <li><a href ="research">Research & Development</a>
+                <li><a href =<?php echo $urlPrefix."research"?>>Research & Development</a>
                    <!-- <ul>
                         <li><a class="wip">Innovation</a>
                             <ul >
@@ -30,7 +39,7 @@
                         <li><a class="wip" >Solution for you</a></li>
                     </ul>-->
                 </li>
-                <li><a href ="recovery">e-Recovery</a>
+                <li><a href =<?php echo $urlPrefix."recovery" ?>>e-Recovery</a>
 <!--                   <ul>
                         <li><a class="wip">Recover your Hard Disk data</a></li>
                         <li><a class="wip">Recover your laptop OS</a></li>
@@ -42,7 +51,7 @@
         <li class="nav-menu_item_neo">
             <a>e-Technologies</a>
             <ul>
-                <li><a href ="businessIntelligence">Business Intelligence</a>
+                <li><a href =<?php echo $urlPrefix."businessIntelligence"?>>Business Intelligence</a>
 <!--                    <ul>
                         <li><a class="wip">IBM Cognos</a>
                             <ul>
@@ -55,8 +64,8 @@
                         <li><a class="wip">TM1</a></li>
                     </ul>-->
                 </li>
-                <li><a href ="cloud">Cloud Computing</a></li>
-                <li><a href ="infra">Infrastructure Services</a>
+                <li><a href =<?php echo $urlPrefix."cloud"?>>Cloud Computing</a></li>
+                <li><a href =<?php echo $urlPrefix."infra"?>>Infrastructure Services</a>
 <!--                    <ul>
                         <li><a class="wip">Platform Designing</a></li>
                         <li><a class="wip">Virtualization</a></li>
@@ -68,25 +77,25 @@
             <a>e-Laboratory</a>
             <ul>
                 <li><a class="wip">Order Now!-CBT</a></li>
-                <li><a href="onlineTraining">Online Training</a></li>
+                <li><a href=<?php echo $urlPrefix."onlineTraining"?>>Online Training</a></li>
                 <li><a class="wip">Career Counselling</a></li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">
             <a>e-Consulting</a>
             <ul>
-                <li><a href="businessConsulting">Business Consulting</a></li>
-                <li ><a href="itConsulting">IT Consulting</a>
+                <li><a href=<?php echo $urlPrefix."businessConsulting"?>>Business Consulting</a></li>
+                <li ><a href=<?php echo $urlPrefix."itConsulting"?>>IT Consulting</a>
 <!--                    <ul>
                         <li><a class="wip">Manage Support Services</a></li>
                         <li><a class="wip">Staff augmentation</a></li>
                     </ul>-->
                 </li>
-                <li><a href="productConsulting">Product Consulting</a></li>
+                <li><a href=<?php echo $urlPrefix."productConsulting"?>>Product Consulting</a></li>
             </ul>
         </li>
         <li class="nav-menu_item_neo">
-            <a href="iConnect">i-Connect</a>
+            <a href=<?php echo $urlPrefix."iConnect"?>>i-Connect</a>
 <!--            <ul>
                 <li><a class="wip">Worldwide</a></li>
                 <li><a class="wip">References</a></li>

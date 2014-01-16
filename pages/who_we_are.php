@@ -4,17 +4,17 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
         <title>Techno Flair Lab</title>
-        <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
-        <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+        <link rel="shortcut icon" type="../image/x-icon" href="css/images/favicon.ico" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css' />
-        <link href='css/sm-core-css.css' rel='stylesheet' type='text/css' />
-        <link href='css/sm-clean/sm-clean.css' rel='stylesheet' type='text/css' />
-        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+        <link href='../css/sm-core-css.css' rel='stylesheet' type='text/css' />
+        <link href='../css/sm-clean/sm-clean.css' rel='stylesheet' type='text/css' />
+        <script src="../js/jquery-1.8.0.min.js" type="text/javascript"></script>
         <!--[if lt IE 9]>
                 <script src="js/modernizr.custom.js"></script>
         <![endif]-->
-        <script src="js/functions.js" type="text/javascript"></script>
-        <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
+        <script src="../js/functions.js" type="text/javascript"></script>
+        <script src="../js/jquery.smartmenus.js" type="text/javascript"></script>
         <script type="text/javascript">
             var handle = new EventHandlers();
             var bs = new Bootstrap();
@@ -27,18 +27,18 @@
         </script>
     </head>
     <body>
-        <?php include 'comp/overlay.php'; ?>
+        <?php include '../comp/overlay.php'; ?>
         <div id="wrapper">
             <!-- shell -->
             <div class="shell">
                 <!-- container -->
                 <div class="container">
-                    <?php include 'comp/header.php'; ?>
-                    <?php include 'comp/nav.php' ?>
+                    <?php include '../comp/header.php'; ?>
+                    <?php include '../comp/nav.php' ?>
                     <div class="main">
                         <section class="cols">
                                 <div class="col_inner">
-                                    <div class="title_img"><img src="css/images/col-img1.png" alt="" /></div>
+                                    <div class="title_img"><img src="../css/images/col-img1.png" alt="" /></div>
                                         <div class="col-cnt-inner">
                                                 <h2>Who we are?</h2>
                                                 <p>Techno Flair Lab goes e-age. Here, left-brain meets right, to help you create business, here creativity and technology intersect. We're all about creating online experiences easy that make sense for our clients business save cost and running business effectively. At Techno Flair Lab we help you understand your pain areas and help you get the right solution using industry best practices and standards. We ensure that your business has access to the prime tools to achieve results. Techno Flair Lab is 100% committed to customer satisfaction in all services that we deliver.</p><br>
@@ -73,7 +73,7 @@
                     <!-- end of main -->
                                 
                     <!-- footer-->
-                    <?php include './comp/footer.php' ?>
+                    <?php include '../comp/footer.php' ?>
                     <!--footer ends-->
                 </div>
                 <!-- end of container -->	

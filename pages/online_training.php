@@ -4,17 +4,17 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
         <title>Techno Flair Lab</title>
-        <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
-        <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+        <link rel="shortcut icon" type="image/x-icon" href="../css/images/favicon.ico" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css' />
-        <link href='css/sm-core-css.css' rel='stylesheet' type='text/css' />
-        <link href='css/sm-clean/sm-clean.css' rel='stylesheet' type='text/css' />
-        <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+        <link href='../css/sm-core-css.css' rel='stylesheet' type='text/css' />
+        <link href='../css/sm-clean/sm-clean.css' rel='stylesheet' type='text/css' />
+        <script src="../js/jquery-1.8.0.min.js" type="text/javascript"></script>
         <!--[if lt IE 9]>
                 <script src="js/modernizr.custom.js"></script>
         <![endif]-->
-        <script src="js/functions.js" type="text/javascript"></script>
-        <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
+        <script src="../js/functions.js" type="text/javascript"></script>
+        <script src="../js/jquery.smartmenus.js" type="text/javascript"></script>
         <script type="text/javascript">
             var handle = new EventHandlers();
             var bs = new Bootstrap();
@@ -29,18 +29,18 @@
 
     </head>
     <body>
-        <?php include 'comp/overlay.php'; ?>
+        <?php include '../comp/overlay.php'; ?>
         <div id="wrapper">
             <!-- shell -->
             <div class="shell">
                 <!-- container -->
                 <div class="container">
-                    <?php include 'comp/header.php'; ?>
-                    <?php include 'comp/nav.php' ?>
+                    <?php include '../comp/header.php'; ?>
+                    <?php include '../comp/nav.php' ?>
                     <div class="main">					
                         <section class="cols">
                                 <div class="col_inner">
-                                    <div class="title_img"><img src="css/images/col-img1.png" alt="" /></div>
+                                    <div class="title_img"><img src="../css/images/col-img1.png" alt="" /></div>
                                         <div class="col-cnt-inner">
                                                 <h2>Online Training</h2>
                                                 <p>We provide customized 'Online and Classroom' training as per the individuals capability targeting 'immediate job' for him in IT Sector. We provide innovative learner focused training solutions. Our online Trainings are a low-cost alternative to classroom trainings and is a perfect solution for individuals or small companies who do not have time for an instructor-led class.</p><br>
@@ -131,7 +131,7 @@
                     </div>
             <!-- end of main -->
             <!-- footer-->
-                    <?php include './comp/footer.php' ?>
+                    <?php include '../comp/footer.php' ?>
                     <!--footer ends-->
                 </div>
                 <!-- end of container -->	

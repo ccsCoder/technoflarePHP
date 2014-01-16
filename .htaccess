@@ -1,3 +1,2 @@
 RewriteEngine on
-RewriteCond $1 !^(controller\.php|index\.php|lib|parts|pages|css|js|images|robots\.txt)
-RewriteRule ^(.*)$ /TechnoflarePHP/technoflarePHP/controller.php/$1 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)$  controller.php?page=$1 [L] 
