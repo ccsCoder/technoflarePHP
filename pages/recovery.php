@@ -38,21 +38,47 @@
                         <section class="cols">
                                 <div class="col_inner">
                                     
-                                        <div class="col-cnt-inner">
-                                                <h2>E-Recovery</h2>
-                                                <p>Lorem Ipsum Dolor Sit Amet.</p> 
-                                                
-                                        </div>
-                                    <div class="illustrated_text_right" style="background: transparent">
-                                                <h3>Lost Data ? We can help !</h3>
-                                                <img src="../images/lost-data.gif" alt="lost data" style="width: 311px;height: 223px"/>
+                                    <div class="col-cnt-inner">
+                                            <h2>E-Recovery</h2>
+                                    </div>
+                                    <div class="illustrated_text_center" >
+                                        <h3 style="text-align: left">Causes of Data Loss.</h3>
+                                        <br/>
+                                        <img src="../images/datalossCause.jpg" alt="dataloss" style="float:center"/>
+                                        <br/>
+                                        <h2 style="color:red;background-color: #EFF5FB">Hardware Failure is the Main Culprit!</h2>
+                                    </div>
+                                    <div class="illustrated_text_right" >
+                                                <h3>We can help !</h3>
+                                                <img src="../images/backup_restore.png" alt="lost data" />
                                                 <p>
-                                                   Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
-                                                   Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
-                                                   Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.  
-
+                                                   In most cases, that data does not get destroyed. It just becomes Inaccessible.
+                                                   Its like you have the buildings, but no roads to reach them.
                                                 </p>
-                                        </div>
+                                                <p>
+                                                    We, use a variety of tools and our expertise to get you your data. Pronto!
+                                                </p>
+                                     </div>
+                                    <div class="illustrated_text_left">
+                                        <h3>Never loose your Pictures.</h3>
+                                        <img src="../images/pic_conv.png" alt="picture_icon" />
+                                        <p>
+                                            According to a recent survey, Pictures are the most cherished data that people have.
+                                            And Yes, There is a good chance we can recover those picnic snapshots you accidentally deleted.
+                                        </p>
+                                    </div>
+                                    <div class="illustrated_text_right">
+                                        <h3>Be Proactive!</h3>
+                                        <img src="../images/happy_comp.png" alt="happy comptuer" />
+                                        <p>
+                                            Why wait for a disaster to strike? Our e-Labs can help you keep your Hard Disk and Computer running smoothly so that 
+                                            you face minimal risk of crashes, corrupt Operating systems. 
+                                        </p>
+                                        <p>
+                                            A happy system is after all, Like Clockwork !
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                                 <div class="cl">&nbsp;</div>
                         </section>

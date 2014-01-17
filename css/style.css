@@ -217,6 +217,18 @@ p.sub-cat_item_skc {
 }
 
 /* Illustrated Text Holder */
+div.illustrated_text_center {
+    text-align: center;
+    margin-right: 5px;
+    min-height: 170px;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color:transparent;
+    transition: box-shadow 1s;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
 div.illustrated_text_left {
     margin-right: 5px;
     min-height: 170px;
