@@ -228,6 +228,14 @@ div.illustrated_text_center {
     transition: box-shadow 1s;
     box-shadow: 5px 5px 10px lightgray;
 }
+div.illustrated_text_center>h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+div.illustrated_text_center:hover {
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+}
 
 div.illustrated_text_left {
     margin-right: 5px;

@@ -1,31 +1,14 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-?>
-<?php
-/*
- * Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM Cognos, ROAMBI, Qlik View and TM1 and their content.
-  i) IBM Cognos
-  IBM Cognos has two section in the same page Dashboarding and Mobility and their content.
-  ii) ROAMBI
-  ROAMBI has its content in the page.
-  iii) Qlik View
-  Qlik View has its content in the page.
-  iv) TM1
-  TM1 has its content in the page.
- */
+
 ?>
 <!DOCTYPE html>
 <html lang="en" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-        <title>Techno Flair Lab</title>
+        <title>Techno Flair Lab: Cloud</title>
         <link rel="shortcut icon" type="../image/x-icon" href="../css/images/favicon.ico" />
         <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css' />
@@ -61,14 +44,48 @@
                     <div class="main">
                         <section class="cols">
                             <div class="col_inner">
-                                <div class="title_img"><img src="../images/bi.png" height ="130px" width="150px" alt="" /></div>
                                 <div class="col-cnt-inner">
                                     <h2>Cloud Computing</h2>
-                                    <p>Business Intelligence doesn’t have any sub menu in it. 
-                                    </p>
-                                    <p>
-                                        Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM COGNOS, ROAMBI, QlikView, Tableau, TM1 , etc and their content.sector. Business intelligence strategy is no longer a buzz word and we frequently come across businesses where attempts to incorporate BI have already been made.
-                                    </p>
+                                    <div class="illustrated_text_center" >
+                                        <h3 style="text-align: left">Your Data, Your Devices.</h3>
+                                        <br/>
+                                        <img src="../images/cloudcomputing.png" alt="cloudComputing" style="float:center"/>
+                                        <br/>
+                                        <h2 style="color:black;background-color: #EFF5FB">TFL Cloud has you backed up !</h2>
+                                    </div>
+                                    <div class="illustrated_text_right" >
+                                                <h3>Software as a Service (SAAS):</h3>
+                                                <img src="../images/saas.png" alt="lost data" style="height:100px;width:188px" />
+                                                <p>
+                                                   Software as a service (SaaS), sometimes referred to as "on-demand software" or "Application-Service-Providers",
+                                                   is a software delivery model in which software and associated data are centrally hosted on the cloud. 
+                                                </p>
+                                                <p>
+                                                    SaaS has become a common delivery model for many business applications.
+                                                </p>
+                                     </div>
+                                    <div class="illustrated_text_left">
+                                        <h3>Platform as a Service (PAAS):</h3>
+                                        <img src="../images/pass.png" alt="picture_icon" style="width:160px;height:109px"/>
+                                        <p>
+                                            Platform as a service (PaaS) is a category of cloud computing services that provides a computing platform 
+                                            and a solution stack as a service.
+                                        </p>
+                                        <p>
+                                            In this model, the consumer creates the software using tools and/or libraries from the provider. 
+                                        </p>
+                                    </div>
+                                    <div class="illustrated_text_right">
+                                        <h3>Infrastructure as a Service (IAAS):</h3>
+                                        <img src="../images/iaas.png" alt="happy comptuer" style="width:150px;height:110px" />
+                                        <p>
+                                            Infrastructure as a Service is a provision model in which an organization outsources 
+                                            the equipment used to support operations, including storage, hardware, servers and networking components.
+                                        </p>
+                                        <p>
+                                            The service provider owns the equipment and is responsible for housing, running and maintaining it. The client typically pays on a per-use basis.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="cl">&nbsp;</div>
