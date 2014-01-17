@@ -3,11 +3,16 @@
      * Header php fragment
      * 
      */
+    $urlPrefix="";
+    if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
+        //This means we're inside "pages" was found
+        $urlPrefix = "../";     //modify
+    }
 ?>
 
 <!-- header -->
 <header id="header">
-    <h1 id="logo"><a href="controller.php?ref=index">Techno Flair Lab</a></h1>
+    <h1 id="logo"><a href=<?php echo $urlPrefix."index" ?>>Techno Flair Lab</a></h1>
     <!-- search -->
     <div class="search">
         <form method="post">

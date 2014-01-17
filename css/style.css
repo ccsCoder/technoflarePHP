@@ -224,6 +224,12 @@ div.illustrated_text_left {
     border: 1px solid gainsboro;
     border-radius: 10px;
     background-color:#F2F2F2;
+    transition: box-shadow 1s;
+    box-shadow: 5px 5px 10px lightgray;
+}
+div.illustrated_text_left:hover {
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
 }
 .illustrated_text_left img {
     float:left;
@@ -251,7 +257,15 @@ div.illustrated_text_right {
     border: 1px solid gainsboro;
     border-radius: 10px;
     background-color:#EFF5FB;
+    transition: box-shadow 1s;
+    box-shadow: 5px 5px 10px lightgray;
 }
+
+div.illustrated_text_right:hover {
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+}
+
 .illustrated_text_right img {
     float:right;
     width:150px;
