@@ -10,6 +10,13 @@
   iv) TM1
   TM1 has its content in the page.
  */
+//    /TFL/technoflarePHP/pages/what_we_do.php
+$urlPrefix="";
+if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
+    //This means we're inside "pages" was found
+    $urlPrefix = "../";     //modify
+}
+   
 ?>
 <!DOCTYPE html>
 <html lang="en" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
@@ -54,7 +61,7 @@
                             <div class="col_inner">
                                 <div class="title_img"><img src="../images/bi.png" height ="130px" width="150px" alt="" /></div>
                                 <div class="col-cnt-inner">
-                                    <h2>I-Connect</h2>
+                                    <h2 ><a href=<?php echo $urlPrefix."contact"?>>I-Connect</a></h2>
                                     <p>Business Intelligence doesn’t have any sub menu in it. 
                                     </p>
                                     <p>

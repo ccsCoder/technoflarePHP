@@ -16,7 +16,8 @@ $locs = array(
     "research" => "pages/research.php",
     "whatWeDo" => "pages/what_we_do.php",
     "howWeDo" => "pages/how_we_do.php",
-    "whoWeAre" => "pages/who_we_are.php"
+    "whoWeAre" => "pages/who_we_are.php",
+    "contact" => "pages/contact.php"
     
 );
 
