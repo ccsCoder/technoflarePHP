@@ -52,7 +52,7 @@
                     <div class="main">
                         <section class="cols">
                             <div class="col_inner">
-                                <div class="title_img"><img src="../images/bi.png" height ="130px" width="150px" alt="" /></div>
+                                <div class="title_img"><img src="../images/is_small.png" alt="infrastructure services" /></div>
                                 <div class="col-cnt-inner">
                                     <h2>Infrastructure Services</h2>
                                     <p>Business Intelligence doesn’t have any sub menu in it. 
@@ -64,7 +64,7 @@
                                     <div class="illustrated_text_right">
                                         
                                         <h3>Platform Designing</h3>
-                                        <img src="../images/bi.png" height ="130px" width="150px" alt="android_image"/>
+                                        <img src="../images/t_plat_icon.png" alt="platform"/>
                                         <p>
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                         </p>
@@ -74,10 +74,11 @@
 
                                     <div class="illustrated_text_left">
                                         <h3>Virtualization</h3>
-                                        <img src="../images/bi.png" height="50px" width="100px" alt="Customer_sols" />
+                                        <img src="../images/virt_icon.png" alt="virtualization_icon" />
                                         <p>Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
-                                            Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet</p>
+                                            Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet
+                                        </p>
                                     </div>
                                 </div>
                             </div>

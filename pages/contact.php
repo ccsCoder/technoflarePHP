@@ -15,7 +15,12 @@ if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
 <body>
 
 <form action="#" method="post">
-
+    <div class="box-content-holder" id="mailer_2" style="display:block" >
+       
+            <div class="box-heading">
+                What's your Query?
+                <span class="close">X</span>
+            </div>
            <div style="padding:30px">
                 <div style="text-align: left">
                     Name: <input id="queryFormName" type="text" maxlength="50" placeholder="What are you called?" />
@@ -38,6 +43,8 @@ if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
                  
             <input type="submit">
         </div>
+    </div>
+    
 </form>
 
 </body>

@@ -61,6 +61,7 @@ if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
                             <div class="col_inner">
                                 <div class="title_img"><img src="../images/bi.png" height ="130px" width="150px" alt="" /></div>
                                 <div class="col-cnt-inner">
+                                    <?php include 'contact.php' ?>
                                     <h2 ><a href=<?php echo $urlPrefix."contact"?>>I-Connect</a></h2>
                                     <p>Business Intelligence doesn’t have any sub menu in it. 
                                     </p>
