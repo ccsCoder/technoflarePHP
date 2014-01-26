@@ -56,6 +56,13 @@ EventHandlers.prototype.invokeContactForm = function() {
     });
 };
 
+EventHandlers.prototype.slideDownForm = function() {
+  
+  $(".illustrated_text_center").slideToggle("fast");
+  $("#showForm_iConnect").text($("#showForm_iConnect").text()==="Show Query Form"?"Hide Query Form":"Show Query Form");
+  
+};
+
 /*EventHandlers.prototype.displayWorkInProgress = function (event) {
     
      $(".overlay").fadeIn(50,function(e) {
@@ -179,6 +186,8 @@ Bootstrap.prototype.attachEventHandlers = function(bs) {
     //add close event on contact form.
     $(".close").on("click",bs.handler.closeContactForm);
     $("#submitQuery").on("click",{},bs.handler.submitQueryThroughMail);
+    //add slide form to display ... 
+    $("#showForm_iConnect").on("click",{},bs.handler.slideDownForm);
     //add invoke mail on the social inner.
     $(".john-doe-123-ico").on("click",{},bs.handler.invokeContactForm);
 };

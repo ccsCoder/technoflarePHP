@@ -19,12 +19,16 @@
                  <div>
                     Email: <input id="queryEmailID" type="email" maxlength="50" placeholder="Your Email ID." />
                  </div>
+                <div style="text-align:left;margin-top: 10px">
+                    How did you know about TFL: <input id="referenceFrom" type="email" maxlength=100 placeholder="Reference from onLine or other source" />
+                </div>
                 <div>
                     Query: 
                 </div>
                  <div>
                     <textarea id="queryText"></textarea>
                  </div>
+                
                  <div style="float:right;margin-top: 10px;">
                      <div id='submitQuery' class="css_btn_class">Submit</div>
                  </div>
@@ -32,6 +36,7 @@
 
         </div>
    </div>
+   
    <div class="box-content-holder" id="workInProgress">
        
             <div class="box-heading">

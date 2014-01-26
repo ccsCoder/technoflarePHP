@@ -1,15 +1,5 @@
 <?php
-/*
- * Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM Cognos, ROAMBI, Qlik View and TM1 and their content.
-  i) IBM Cognos
-  IBM Cognos has two section in the same page Dashboarding and Mobility and their content.
-  ii) ROAMBI
-  ROAMBI has its content in the page.
-  iii) Qlik View
-  Qlik View has its content in the page.
-  iv) TM1
-  TM1 has its content in the page.
- */
+
 ?>
 <!DOCTYPE html>
 <html lang="en" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
@@ -52,19 +42,20 @@
                     <div class="main">
                         <section class="cols">
                             <div class="col_inner">
-                                <div class="title_img"><img src="../images/bi.png" height ="130px" width="150px" alt="" /></div>
+                                <div class="title_img"><img src="../images/consult_icon.png" alt="consulting icon" /></div>
                                 <div class="col-cnt-inner">
                                     <h2>IT Consulting</h2>
-                                    <p>Business Intelligence doesn’t have any sub menu in it. 
+                                    <p>Lorem Ipsum Dolor Sit Amet. 
                                     </p>
                                     <p>
-                                        Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM COGNOS, ROAMBI, QlikView, Tableau, TM1 , etc and their content.sector. Business intelligence strategy is no longer a buzz word and we frequently come across businesses where attempts to incorporate BI have already been made.
+                                        Lorem Ipsum Dolor sit Amet.Lorem Ipsum Dolor sit Amet.Lorem Ipsum Dolor sit Amet.Lorem Ipsum Dolor sit Amet.Lorem Ipsum Dolor sit Amet.
+                                        Lorem Ipsum Dolor sit Amet.Lorem Ipsum Dolor sit Amet.
                                     </p>
 
                                     <div class="illustrated_text_right">
                                         
                                         <h3>Manage Support Services</h3>
-                                        <img src="../images/bi.png" height ="130px" width="150px" alt="android_image"/>
+                                        <img src="../images/support_icon.png" alt="Support"/>
                                         <p>
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                         </p>
@@ -74,7 +65,7 @@
 
                                     <div class="illustrated_text_left">
                                         <h3>Staff augmentation</h3>
-                                        <img src="../images/bi.png" height="50px" width="100px" alt="Customer_sols" />
+                                        <img src="../images/staff_ion.png" alt="Staff Augmentation" />
                                         <p>Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet</p>

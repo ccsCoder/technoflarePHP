@@ -1,21 +1,5 @@
 <?php
-/*
- * Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM Cognos, ROAMBI, Qlik View and TM1 and their content.
-  i) IBM Cognos
-  IBM Cognos has two section in the same page Dashboarding and Mobility and their content.
-  ii) ROAMBI
-  ROAMBI has its content in the page.
-  iii) Qlik View
-  Qlik View has its content in the page.
-  iv) TM1
-  TM1 has its content in the page.
- */
-//    /TFL/technoflarePHP/pages/what_we_do.php
-$urlPrefix="";
-if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
-    //This means we're inside "pages" was found
-    $urlPrefix = "../";     //modify
-}
+
    
 ?>
 <!DOCTYPE html>
@@ -44,6 +28,7 @@ if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
             $(document).ready(function(e) {
                 bs.init(bs);
             });
+            
         </script>
 
     </head>
@@ -59,20 +44,22 @@ if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
                     <div class="main">
                         <section class="cols">
                             <div class="col_inner">
-                                <div class="title_img"><img src="../images/bi.png" height ="130px" width="150px" alt="" /></div>
+                                <!--<div class="title_img"><img src="../images/connect_icon.png" alt="" /></div>-->
                                 <div class="col-cnt-inner">
-                                    <?php include 'contact.php' ?>
-                                    <h2 ><a href=<?php echo $urlPrefix."contact"?>>I-Connect</a></h2>
-                                    <p>Business Intelligence doesn’t have any sub menu in it. 
-                                    </p>
-                                    <p>
-                                        Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM COGNOS, ROAMBI, QlikView, Tableau, TM1 , etc and their content.sector. Business intelligence strategy is no longer a buzz word and we frequently come across businesses where attempts to incorporate BI have already been made.
-                                    </p>
+                                    
+                                    <h2>I-Connect</h2>
+                                    
+                                    
+                                        <h3 style="text-align: left;cursor: pointer" id="showForm_iConnect">Show Query Form</h3>
+                                    <div class="illustrated_text_center" style="display:none">    
+                                        <?php include 'contact.php' ?>
+                                    </div>
+                                    
 
                                     <div class="illustrated_text_right">
                                         
                                         <h3>Worldwide</h3>
-                                        <img src="../images/bi.png" height ="130px" width="150px" alt="android_image"/>
+                                        <img src="../images/t_plat_icon.png" alt="Worldwide"/>
                                         <p>
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                         </p>
@@ -82,7 +69,7 @@ if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
 
                                     <div class="illustrated_text_left">
                                         <h3>References </h3>
-                                        <img src="../images/bi.png" height="50px" width="100px" alt="Customer_sols" />
+                                        <img src="../images/ref_icon.png" alt="references" />
                                         <p>Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet.
                                             Lorem Ipsum Dolor sit amet.Lorem Ipsum Dolor sit amet</p>

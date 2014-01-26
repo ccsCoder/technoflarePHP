@@ -1,51 +1,33 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-//    /TFL/technoflarePHP/pages/what_we_do.php
-$urlPrefix="";
-if ( strstr($_SERVER['REQUEST_URI'],"pages")!==FALSE) {
-    //This means we're inside "pages" was found
-    $urlPrefix = "../";     //modify
-}
-?>
-<html>
-<body>
 
-<form action="#" method="post">
-    <div class="box-content-holder" id="mailer_2" style="display:block" >
-       
-            <div class="box-heading">
-                What's your Query?
-                <span class="close">X</span>
-            </div>
-           <div style="padding:30px">
+?>
+
+
+    <div class="box-content-holder" id="mailer2" style="border: none;display:block">
+           <div style="padding:10px">
                 <div style="text-align: left">
                     Name: <input id="queryFormName" type="text" maxlength="50" placeholder="What are you called?" />
                  </div>
 
-                 <div>
+               <div style="text-align: left">
                     Email: <input id="queryEmailID" type="email" maxlength="50" placeholder="Your Email ID." />
                  </div>
-               <div>
-                    How did you know about TFL: <input id="referenceFrom" type="email" maxlength=100 placeholder="Reference from onLine or other source" />
-                </div>
+               <div style="text-align:left;margin-top: 10px">
+                    How did you know about TFL: <input id="referenceFrom" type="text" maxlength=100 placeholder="Reference from onLine or other source" />
+               </div>
                  
-                <div style="float:center;margin-top: 10px;">
+                <div style="text-align: left;margin-top: 10px;">
                     Query: 
                 </div>
                  <div>
                     <textarea id="queryText"></textarea>
                  </div>
-                
-                 
-            <input type="submit">
+                 <div style="float:right;">
+                     <div id='submitQuery' class="css_btn_class">Submit</div>
+                 </div>
+                 <h2 style="color:black;background-color: #EFF5FB">We will get back to you soon !</h2>    
+            
         </div>
     </div>
     
-</form>
-
-</body>
-</html>

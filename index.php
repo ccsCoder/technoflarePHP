@@ -45,7 +45,7 @@
                     <?php include 'comp/header.php'; ?>
                     <?php include 'comp/nav.php'; ?>
                     <?php include 'comp/slider.php'; ?>
-                    <div class="main">
+                    <div class="main" style="margin-top: 47px">
                         <section class="cols">
                             <div class="col_inner">
                                 <div class="title_img"><img src="css/images/col-img2.png" alt="" /></div>

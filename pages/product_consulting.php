@@ -1,24 +1,6 @@
+
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-?>
-<?php
-/*
- * Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM Cognos, ROAMBI, Qlik View and TM1 and their content.
-  i) IBM Cognos
-  IBM Cognos has two section in the same page Dashboarding and Mobility and their content.
-  ii) ROAMBI
-  ROAMBI has its content in the page.
-  iii) Qlik View
-  Qlik View has its content in the page.
-  iv) TM1
-  TM1 has its content in the page.
- */
 ?>
 <!DOCTYPE html>
 <html lang="en" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
@@ -61,13 +43,14 @@
                     <div class="main">
                         <section class="cols">
                             <div class="col_inner">
-                                <div class="title_img"><img src="../images/bi.png" height ="130px" width="150px" alt="" /></div>
+                                <div class="title_img"><img src="../images/prod_cons.png" height ="130px" width="150px" alt="" /></div>
                                 <div class="col-cnt-inner">
                                     <h2>Product Consulting</h2>
-                                    <p>Business Intelligence doesn’t have any sub menu in it. 
+                                    <p>Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet.
                                     </p>
                                     <p>
-                                        Business Intelligence doesn’t have any sub menu in it. It has a separate page for itself, and this page has four sections IBM COGNOS, ROAMBI, QlikView, Tableau, TM1 , etc and their content.sector. Business intelligence strategy is no longer a buzz word and we frequently come across businesses where attempts to incorporate BI have already been made.
+                                        Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit Amet
+                                        Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet
                                     </p>
                                 </div>
                             </div>
