@@ -50,6 +50,8 @@ function EventHandlers () {
 EventHandlers.prototype.invokeContactForm = function() {
     //Invoke the mail function here...
     //admin@technoflairlab.com
+    if ($("#mailer2").parent().css("display")==="block")
+        return;
     $(".overlay").fadeIn(50,function(e) {
         $("#mailer").show();
             $(window).resize();
