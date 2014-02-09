@@ -93,7 +93,7 @@
                                 <p><strong>A smarter planet begins with smarter educational system.</strong> Looking into the next decade, the education industry will continue to face involving challenges in shaping its relationships with the communities they serve. Changes in technologies, commerce, politics and demographics will require educational systems to adapt to serve their citizenry and to contribute to the future economic success of nations, states and regions.</p>
 
                                 <ul>
-                                    <li><a href="#">Career Counselling</a></li>
+                                    <li><a href="#">Career Counseling</a></li>
                                     <li><a href="#">Cloud Computing</a></li>
                                     <li><a href="#">Infrastructure Services</a></li>
                                     <li><a href="#">Research & Development</a></li>
