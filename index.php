@@ -62,7 +62,7 @@
                                 <div class="col-cnt">
                                     <h2>Support</h2>
                                     <p>We provide support in Business Intelligence(Administration and Report Development)</p>
-                                    <a href="#" class="more">view more</a>
+                                    <a href="itConsulting" class="more">view more</a>
                                 </div>
                             </div>
                             <div class="col">
@@ -70,7 +70,7 @@
                                 <div class="col-cnt">
                                     <h2>Training</h2>
                                     <p>We provide customized <strong>'Online and Classroom'</strong> Training</p>
-                                    <a href="#" class="more">view more</a>
+                                    <a href="onlineTraining" class="more">view more</a>
                                 </div>
                             </div>
                             <div class="col">
@@ -78,7 +78,7 @@
                                 <div class="col-cnt">
                                     <h2>Consulting</h2>
                                     <p>We provide services in <strong>design, architecture, Installation, Development and implementation</strong> <!--of data warehouse and other business intelligence solutions. If you are considering modifying or building a data warehouse for your organization or if your company is in need of a high level of staffing service, please explore our website and <strong>contact us</strong> for more information about <strong>what we can do for you!</strong>--> </p>
-                                    <a href="#" class="more">view more</a>
+                                    <a href="businessConsulting" class="more">view more</a>
                                 </div>
                             </div>
                             <div class="cl">&nbsp;</div>
@@ -94,9 +94,9 @@
 
                                 <ul>
                                     <li><a href="#">Career Counseling</a></li>
-                                    <li><a href="#">Cloud Computing</a></li>
-                                    <li><a href="#">Infrastructure Services</a></li>
-                                    <li><a href="#">Research & Development</a></li>
+                                    <li><a href="cloud">Cloud Computing</a></li>
+                                    <li><a href="infra">Infrastructure Services</a></li>
+                                    <li><a href="research">Research & Development</a></li>
                                 </ul>
                             </div>
                             <div class="cl">&nbsp;</div>

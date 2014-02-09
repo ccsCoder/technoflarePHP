@@ -191,12 +191,12 @@ Bootstrap.prototype.attachEventHandlers = function(bs) {
 //                bs.handler.displayWorkInProgress(e);
     });
     //add close event on contact form.
-    $(".close").on("click",bs.handler.closeContactForm);
-    $("#submitQuery").on("click",{},bs.handler.submitQueryThroughMail);
+//    $(".close").on("click",bs.handler.closeContactForm);
+//    $("#submitQuery").on("click",{},bs.handler.submitQueryThroughMail);
     //add slide form to display ... 
     $("#showForm_iConnect").on("click",{},bs.handler.slideDownForm);
     //add invoke mail on the social inner.
-    $(".john-doe-123-ico").on("click",{},bs.handler.invokeContactForm);
+//    $(".john-doe-123-ico").on("click",{},bs.handler.invokeContactForm);
 };
 
 /**
