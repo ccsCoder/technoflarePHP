@@ -410,6 +410,11 @@ div.illustrated_text_right:hover {
 .css_btn_class a:hover {text-decoration:none;color:orange;}
 .css_btn_class a:active {text-decoration:none;color:white;}
 
+li.subitem {
+    font-size:small;
+    margin-left: 10px;
+}
+
 /*.navbar-fixed-top {
 position: fixed;
 top: 0;

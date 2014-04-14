@@ -61,7 +61,7 @@
                                 <img src="css/images/col-img1.png" alt="" />
                                 <div class="col-cnt">
                                     <h2>Support</h2>
-                                    <p>We provide support in Business Intelligence(Administration and Report Development)</p>
+                                    <p>We provide Technical Support for IT professionals and Corporates for their IT team in Business Intelligence.</p>
                                     <a href="#" class="more">view more</a>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                                 <img src="css/images/col-img2.png" alt="" />
                                 <div class="col-cnt">
                                     <h2>Training</h2>
-                                    <p>We provide customized <strong>'Online and Classroom'</strong> Training</p>
+                                    <p>We provide customized <strong>'Online and Classroom'</strong> Training for Corporates and Individuals</p>
                                     <a href="#" class="more">view more</a>
                                 </div>
                             </div>
@@ -77,7 +77,8 @@
                                 <img src="css/images/col-img3.png" alt="" />
                                 <div class="col-cnt">
                                     <h2>Consulting</h2>
-                                    <p>We provide services in <strong>design, architecture, Installation, Development and implementation</strong> <!--of data warehouse and other business intelligence solutions. If you are considering modifying or building a data warehouse for your organization or if your company is in need of a high level of staffing service, please explore our website and <strong>contact us</strong> for more information about <strong>what we can do for you!</strong>--> </p>
+                                    <p>We provide services in <strong>IT Infrastructure Designing, Enterprise Architecture and Application Strategy. </strong> 
+                                    </p>
                                     <a href="#" class="more">view more</a>
                                 </div>
                             </div>
@@ -93,8 +94,17 @@
                                 <p><strong>A smarter planet begins with smarter educational system.</strong> Looking into the next decade, the education industry will continue to face involving challenges in shaping its relationships with the communities they serve. Changes in technologies, commerce, politics and demographics will require educational systems to adapt to serve their citizenry and to contribute to the future economic success of nations, states and regions.</p>
 
                                 <ul>
-                                    <li><a href="#">Career Counselling</a></li>
-                                    <li><a href="#">Cloud Computing</a></li>
+                                    <li><a href="#">Career Counseling</a></li>
+                                    <ul>
+                                        <li class="subitem">Provide career guidance to individuals who are techno savvy and have desire to change their career in the field of Information technology.</li>
+                                    </ul>
+                                    <li><a href="#">Corporate Trainings</a></li>
+                                    <ul>
+                                        <li class="subitem">Trained over 500+ professionals on best practice.</li>
+                                        <li class="subitem">Accredited and Experienced Trainers.</li>
+                                        <li class="subitem">Hands-on training based on real time project scenarios.</li>
+                                        <li class="subitem">100`s of questions to prepare for the certification exams.</li>
+                                    </ul>
                                     <li><a href="#">Infrastructure Services</a></li>
                                     <li><a href="#">Research & Development</a></li>
                                 </ul>

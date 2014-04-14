@@ -42,7 +42,8 @@
                                                     <div class="title_img"><img src="../css/images/col-img2.png" alt="" /></div>
 							<div class="col-cnt-inner">
 								<h2>How we do?</h2>
-								<p>When first meeting with a new client, a consultant usually spends time working through existing software programs and pointing out problems. He or she explains how information gaps, lagging computers, and outdated technology are affecting the business at a fundamental level. Once all problems have been identified, the consultant can set up a demo to show the client how new hardware and software makes data easier to manage.</p><br>
+								<p>When first meeting with a new client, a consultant usually spends time working through existing software programs and pointing out problems. He or she explains how information gaps, lagging computers, and outdated technology are affecting the business at a fundamental level. Once all problems have been identified, the consultant can set up a demo to show the client how new hardware and software makes data easier to manage.
+                                                                </p><br>
                                                   
                                                                 <ul>
                                                                     <li><h3 class="accordion_header">Engaging Business & Content</h3>
@@ -76,6 +77,7 @@
                                                                             </p>
                                                                         </div>
                                                                     </li>
+                                                                    
                                                                 </ul>
 							</div>
 						</div>
