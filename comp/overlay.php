@@ -3,7 +3,7 @@
 ?>
 
 <div class="overlay">
-   <div class="box-content-holder" id="mailer">
+<!--   <div class="box-content-holder" id="mailer">
        
             <div class="box-heading">
                 What's your Query?
@@ -35,7 +35,7 @@
             </div>
 
         </div>
-   </div>
+   </div>-->
    
    <div class="box-content-holder" id="workInProgress">
        

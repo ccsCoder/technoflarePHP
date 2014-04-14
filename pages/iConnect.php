@@ -50,7 +50,7 @@
                                     <h2>I-Connect</h2>
                                     
                                     
-                                        <h3 style="text-align: left;cursor: pointer" id="showForm_iConnect">Show Query Form</h3>
+                                    <h3 style="text-align: left;cursor: pointer" id="showForm_iConnect" class="css_btn_class" >Show Query Form...</h3>
                                     <div class="illustrated_text_center" style="display:none">    
                                         <?php include 'contact.php' ?>
                                     </div>

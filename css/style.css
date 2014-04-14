@@ -382,6 +382,10 @@ div.illustrated_text_right:hover {
     color: lightgreen;
     
 }
+#showForm_iConnect {
+    width: 200px;
+    
+}
 /* some buttons */
 .css_btn_class {
     font-size:16px;

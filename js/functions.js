@@ -33,7 +33,7 @@ Validator.prototype.isValidEmail = function(email) {
 
 Validator.prototype.markInputAsError = function(control) {
   $(control).css("border-color","red");
-  $(control).val("You left me empty!");
+  $(control).attr("placeholder","You left me empty!");
 };
 /**
  * class to register and manager all event handler functions
@@ -61,7 +61,7 @@ EventHandlers.prototype.invokeContactForm = function() {
 EventHandlers.prototype.slideDownForm = function() {
   
   $(".illustrated_text_center").slideToggle("fast");
-  $("#showForm_iConnect").text($("#showForm_iConnect").text()==="Show Query Form"?"Hide Query Form":"Show Query Form");
+  $("#showForm_iConnect").text($("#showForm_iConnect").text()==="Show Query Form..."?"Hide Query Form...":"Show Query Form...");
   
 };
 
@@ -90,10 +90,15 @@ EventHandlers.prototype.submitQueryThroughMail = function() {
         validator.markInputAsError($("#queryEmailID"));
         return;
     }
+    if(validator.isEmpty($("#referenceFrom").val())) {
+        validator.markInputAsError($("#referenceFrom"));
+        return;
+    }
     if(validator.isEmpty($("#queryText").val())) {
         validator.markInputAsError($("#queryText"));
         return;
     }
+    
     if(validator.isValidEmail($("#queryEmailID").val())===false) {
         validator.markInputAsError($("#queryEmailID"));
         $("#queryEmailID").val("Invalid Email!");
@@ -186,12 +191,12 @@ Bootstrap.prototype.attachEventHandlers = function(bs) {
 //                bs.handler.displayWorkInProgress(e);
     });
     //add close event on contact form.
-    $(".close").on("click",bs.handler.closeContactForm);
-    $("#submitQuery").on("click",{},bs.handler.submitQueryThroughMail);
+//    $(".close").on("click",bs.handler.closeContactForm);
+//    $("#submitQuery").on("click",{},bs.handler.submitQueryThroughMail);
     //add slide form to display ... 
     $("#showForm_iConnect").on("click",{},bs.handler.slideDownForm);
     //add invoke mail on the social inner.
-    $(".john-doe-123-ico").on("click",{},bs.handler.invokeContactForm);
+//    $(".john-doe-123-ico").on("click",{},bs.handler.invokeContactForm);
 };
 
 /**
