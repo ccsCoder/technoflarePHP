@@ -91,25 +91,46 @@
 
                             <div class="post-cnt">
                                 <h2>A smarter planet!</h2>
-                                <p><strong>A smarter planet begins with smarter educational system.</strong> Looking into the next decade, the education industry will continue to face involving challenges in shaping its relationships with the communities they serve. Changes in technologies, commerce, politics and demographics will require educational systems to adapt to serve their citizenry and to contribute to the future economic success of nations, states and regions.</p>
-
+                                <p><strong>A smarter planet begins with smarter educational system.</strong> </p>
+                                <p>Looking into the next decade, the education industry will continue to face involving challenges in shaping its relationships with the communities they serve. Changes in technologies, commerce, politics and demographics will require educational systems to adapt to serve their citizenry and to contribute to the future economic success of nations, states and regions.</p>
+                            </div>
+                        <section>
+                            <section class="post">    
+                            <div>    
                                 <ul>
-                                    <li><a href="#">Career Counseling</a></li>
+                                    <li><h2>Career Counseling</h2></li>
                                     <ul>
                                         <li class="subitem">Provide career guidance to individuals who are techno savvy and have desire to change their career in the field of Information technology.</li>
                                     </ul>
-                                    <li><a href="#">Corporate Trainings</a></li>
+                                    <li><h2>Corporate Trainings</h2></li>
                                     <ul>
                                         <li class="subitem">Trained over 500+ professionals on best practice.</li>
                                         <li class="subitem">Accredited and Experienced Trainers.</li>
                                         <li class="subitem">Hands-on training based on real time project scenarios.</li>
                                         <li class="subitem">100`s of questions to prepare for the certification exams.</li>
                                     </ul>
-                                    <li><a href="#">Infrastructure Services</a></li>
-                                    <li><a href="#">Research & Development</a></li>
+                                    
+                                    <li><h2>Research & Development</h2></li>
+                                    <ul>
+                                        <li class="subitem">In today’s ever-changing global economy, soaring IT costs and an increasingly competitive market place have placed an increase responsibility on IT to rapidly improve efficiency and drive business agility. These changes require IT management to refocus their long term strategic vision and initiate major transformational projects that affect nearly all aspects of their IT organizations. We help you get there via our R&D center that is tailored made just for your organization.</li>
+                                        <li class="subitem">REMOTE LABS- Our remote labs provide 24x7 accesses to environment for doing R&D and developing your product, providing support to application. Our live remote labs offer students additional learning by applying what is taught in class to a real-world environment.</li>
+                                    </ul>
+                                    <li><h2>Consulting Assessment</h2></li>
+                                    <ul>
+                                        <li class="subitem">Remote Monitoring</li>
+                                        <ul class="subitem">
+                                            <li class="subitem">We implement automation, Alert mechanism and help to monitor 24x7 your IT Solutions and Infrastructure.</li>
+                                            <li class="subitem">To drive IT automation regardless of which type of service agreements with which you work.</li>
+                                            <li class="subitem">Teams are empowered to manage workstations and other devices inoperable states to avoid costly on-site visits.</li>
+                                            <li class="subitem">Provide Support to individuals who struggle to work in corporate world due to lack of knowledge and experience.</li>
+                                        </ul>
+                                    </ul>
+                                    <li><h2>Customer Centric Organization</h2></li>
+                                    <li class="subitem">"Customer Centricity”, as we’re calling it, is about reorienting our processes and behaviors around our customers.</li>
                                 </ul>
                             </div>
-                            <div class="cl">&nbsp;</div>
+                            
+                            
                         </section>
 
                         <section class="testimonial">
