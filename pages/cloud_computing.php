@@ -53,6 +53,15 @@
                                         <br/>
                                         <h2 style="color:black;background-color: #EFF5FB">TFL Cloud has you backed up !</h2>
                                     </div>
+                                    <section class="post">
+                                        <h2>So, What does it mean for me ?</h2>
+                                        <p>Cloud Computing is the game changer that has spurned the demand for professional who can help companies transition to cloud and adapt the best practices.</p>
+                                        <ul>
+                                            <li>Comprehend the business benefits and business considerations of cloud computing.</li>
+                                            <li>Understand cloud computing from a technical perspective and recognize the various techniques, methods, challenges, and types of clouds.</li>
+                                            <li>Recognize the compliance, risk, and regulatory consequences of cloud computing and its financial and strategic impact on an organization.</li>
+                                        </ul>
+                                    </section>
                                     <div class="illustrated_text_right" >
                                                 <h3>Software as a Service (SAAS):</h3>
                                                 <img src="../images/saas.png" alt="lost data" style="height:100px;width:188px" />
